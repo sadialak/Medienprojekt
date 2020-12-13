@@ -1,0 +1,117 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "63472f68-f357-4e83-a656-2a8a7d4c54fd",
+            "actions": [
+                {
+                    "name": "XSmash",
+                    "type": "Button",
+                    "id": "4d95c747-9d57-4394-80de-75a79cf6d9cd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ASmash",
+                    "type": "Button",
+                    "id": "e1f8375e-0d93-445c-8e0e-cb0a9d814fc5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "BSmash",
+                    "type": "Button",
+                    "id": "c9198d69-cab4-4d00-a1e5-109dc5c90d5e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "YSmash",
+                    "type": "Button",
+                    "id": "49ea8200-77d9-41e1-b81e-42d13fe4b217",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bae44542-31f1-4dcf-958c-0f2a7824cb7c",
+                    "path": "<HID::usb gamepad           >/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "XSmash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ba28115d-2bbd-4e9a-976b-1e0d3a8d0fcb",
+                    "path": "<HID::usb gamepad           >/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ASmash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2404aef0-15e6-4834-9e8a-4f7293aadd5f",
+                    "path": "<HID::usb gamepad           >/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BSmash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c53d4729-dae0-4565-9a38-e606f5329036",
+                    "path": "<HID::usb gamepad           >/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "YSmash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "PressStart",
+            "id": "b0ba3b83-3f58-4ae1-acae-983790233abe",
+            "actions": [
+                {
+                    "name": "Start",
+                    "type": "Button",
+                    "id": "1f1353de-18c5-4ab9-a865-44f3049bd38a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "09a8513a-44e0-435e-a60d-59e6988a3ca2",
+                    "path": "<HID::usb gamepad           >/button10",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
