@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1002e1e2-28c9-4288-8a34-d11ac4c4cbe4" name="Default Changelist" comment="Input aufgesetzt und Hauptmenü verändert sowie Start vom eigentlichen Game (Fehler bei Hauptmenü: Background Button wird nicht richtig angezeigt)" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.1.13f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameplayInput/PlayerControls.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.1.13f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameplayInput/Box.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Erweiterungen/Scripts/ActiveStateToggler.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameplayInput/Box.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lCtwiR3i5pQvz9wbnNxlIseBV4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1002e1e2-28c9-4288-8a34-d11ac4c4cbe4" name="Default Changelist" comment="" />
+      <created>1607113141110</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607113141110</updated>
+      <workItem from="1607113143946" duration="2750000" />
+      <workItem from="1607513771512" duration="2425000" />
+      <workItem from="1607687966525" duration="888000" />
+      <workItem from="1607879034703" duration="3131000" />
+    </task>
+    <task id="LOCAL-00001" summary="Folder erstellt. Unter &quot;eigentliches Medienprojekt&quot; werden die Sachen reingemacht, die wirklich schlussendlich etwas mit unserem Medienprojekt zu tun haben werden.">
+      <created>1607114011246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607114011246</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Nochmal">
+      <created>1607114258545</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607114258545</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Nochmal">
+      <created>1607114711851</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607114711851</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Medienprojekt ordner oben">
+      <created>1607114813073</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607114813073</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Strukturierungen bzw. Differenzierung zwischen Medienprojekt und Erweiterungen vom Medienprojekt">
+      <created>1607115119094</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607115119094</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Input aufgesetzt und Hauptmenü verändert sowie Start vom eigentlichen Game (Fehler bei Hauptmenü: Background Button wird nicht richtig angezeigt)">
+      <created>1607879335638</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607879335638</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Folder erstellt. Unter &quot;eigentliches Medienprojekt&quot; werden die Sachen reingemacht, die wirklich schlussendlich etwas mit unserem Medienprojekt zu tun haben werden." />
+    <MESSAGE value="Nochmal" />
+    <MESSAGE value="Medienprojekt ordner oben" />
+    <MESSAGE value="Strukturierungen bzw. Differenzierung zwischen Medienprojekt und Erweiterungen vom Medienprojekt" />
+    <MESSAGE value="Input aufgesetzt und Hauptmenü verändert sowie Start vom eigentlichen Game (Fehler bei Hauptmenü: Background Button wird nicht richtig angezeigt)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Input aufgesetzt und Hauptmenü verändert sowie Start vom eigentlichen Game (Fehler bei Hauptmenü: Background Button wird nicht richtig angezeigt)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607113237699">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607113237699" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607879343890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607879343890" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607115256098">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607115256098" />
+  </component>
+</project>

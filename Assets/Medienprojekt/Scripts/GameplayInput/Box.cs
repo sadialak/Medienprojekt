@@ -6,7 +6,7 @@ public class Box : MonoBehaviour
 {
     private PlayerControls controls;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         controls = new PlayerControls();
        
