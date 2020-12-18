@@ -20,11 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff1f6cd8-588c-4bad-a118-46768c7046fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameplayInput.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameplayInput.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Box.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Box.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,16 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/PlayerControls.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Player.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1lVkBqxualncmcVaAPKjx8S8lba" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -55,6 +66,8 @@
       <updated>1607689520810</updated>
       <workItem from="1607689528721" duration="2000" />
       <workItem from="1607689799385" duration="596000" />
+      <workItem from="1608136937969" duration="148000" />
+      <workItem from="1608206375482" duration="7000" />
     </task>
     <servers />
   </component>

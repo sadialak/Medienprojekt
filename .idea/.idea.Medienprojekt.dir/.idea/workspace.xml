@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1002e1e2-28c9-4288-8a34-d11ac4c4cbe4" name="Default Changelist" comment="Input aufgesetzt und Hauptmenü verändert sowie Start vom eigentlichen Game (Fehler bei Hauptmenü: Background Button wird nicht richtig angezeigt)" />
+    <list default="true" id="1002e1e2-28c9-4288-8a34-d11ac4c4cbe4" name="Default Changelist" comment="Strukturieren von Game">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameplayInput/.idea/.idea.GameplayInput.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameplayInput/.idea/.idea.GameplayInput.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameplayInput/Box.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameplayInput/Box.cs.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,14 +38,18 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.1.13f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameplayInput/PlayerControls.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameplayInput/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Button/Buttonmove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Button/Button.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.1.13f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameplayInput/Box.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Erweiterungen/Scripts/ActiveStateToggler.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameplayInput/Box.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Button/Buttonmove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameplayInput/Player.cs" />
       </list>
     </option>
   </component>
@@ -64,7 +75,9 @@
       <workItem from="1607113143946" duration="2750000" />
       <workItem from="1607513771512" duration="2425000" />
       <workItem from="1607687966525" duration="888000" />
-      <workItem from="1607879034703" duration="3131000" />
+      <workItem from="1607879034703" duration="3450000" />
+      <workItem from="1608137092080" duration="2285000" />
+      <workItem from="1608206390083" duration="7846000" />
     </task>
     <task id="LOCAL-00001" summary="Folder erstellt. Unter &quot;eigentliches Medienprojekt&quot; werden die Sachen reingemacht, die wirklich schlussendlich etwas mit unserem Medienprojekt zu tun haben werden.">
       <created>1607114011246</created>
@@ -108,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607879335638</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Strukturieren von Game">
+      <created>1607901721532</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607901721532</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,17 +153,18 @@
     <MESSAGE value="Medienprojekt ordner oben" />
     <MESSAGE value="Strukturierungen bzw. Differenzierung zwischen Medienprojekt und Erweiterungen vom Medienprojekt" />
     <MESSAGE value="Input aufgesetzt und Hauptmenü verändert sowie Start vom eigentlichen Game (Fehler bei Hauptmenü: Background Button wird nicht richtig angezeigt)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Input aufgesetzt und Hauptmenü verändert sowie Start vom eigentlichen Game (Fehler bei Hauptmenü: Background Button wird nicht richtig angezeigt)" />
+    <MESSAGE value="Strukturieren von Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strukturieren von Game" />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607113237699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607113237699" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607879343890">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607901732192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607879343890" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607901732192" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607115256098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
