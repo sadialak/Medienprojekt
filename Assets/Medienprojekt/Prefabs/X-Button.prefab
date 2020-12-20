@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 282011828945228423}
   - component: {fileID: 4305313105988143071}
   - component: {fileID: 4305313105988143056}
-  - component: {fileID: 4305313105988143069}
+  - component: {fileID: 6349823214020608600}
   m_Layer: 0
   m_Name: X-Button
   m_TagString: Untagged
@@ -132,7 +132,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0842, y: 1.0842}
   m_EdgeRadius: 0
---- !u!114 &4305313105988143069
+--- !u!114 &6349823214020608600
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5185141232061972474}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39c503f344e18a241974e0a4d8057f0a, type: 3}
+  m_Script: {fileID: 11500000, guid: b181d852a13f0bf4a85ea2cbcd70620e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  array:
+  - {fileID: 3286163911610860551, guid: 893fa10fde835324285cf3a3b6a675a5, type: 3}
+  - {fileID: 3286163911610860551, guid: ee84b79d0ebae41499d7f39edcd9fec6, type: 3}

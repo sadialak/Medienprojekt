@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1471394468474804055}
   - component: {fileID: 3893701291791013447}
   - component: {fileID: 3893701291791013446}
-  - component: {fileID: 3893701291791013445}
+  - component: {fileID: -2763407478393878811}
   m_Layer: 0
   m_Name: Y-Button
   m_TagString: Untagged
@@ -132,7 +132,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0841999, y: 1.0842}
   m_EdgeRadius: 0
---- !u!114 &3893701291791013445
+--- !u!114 &-2763407478393878811
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8850459522358182735}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39c503f344e18a241974e0a4d8057f0a, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d70d16a7c370174abb47eb20d7247af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  sprite: {fileID: 0}
+  array:
+  - {fileID: 3286163911610860551, guid: 90cfb6edb52ce084c9ac0c8ed70f3a2a, type: 3}
+  - {fileID: 3286163911610860551, guid: ee84b79d0ebae41499d7f39edcd9fec6, type: 3}

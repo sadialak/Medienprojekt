@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 701519355711131032}
   - component: {fileID: 1487798912543874429}
   - component: {fileID: 1487798912543874426}
-  - component: {fileID: 1487798912543874431}
+  - component: {fileID: -1712956667895081112}
   m_Layer: 0
   m_Name: A-Button
   m_TagString: Untagged
@@ -132,7 +132,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0842001, y: 1.0842}
   m_EdgeRadius: 0
---- !u!114 &1487798912543874431
+--- !u!114 &-1712956667895081112
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6508917927441461416}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39c503f344e18a241974e0a4d8057f0a, type: 3}
+  m_Script: {fileID: 11500000, guid: 48274f09f47427b468e96eeed908c929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  array:
+  - {fileID: 3286163911610860551, guid: a7e3dbe995a7e3749ba35e5cf41f92c7, type: 3}
+  - {fileID: 3286163911610860551, guid: ee84b79d0ebae41499d7f39edcd9fec6, type: 3}

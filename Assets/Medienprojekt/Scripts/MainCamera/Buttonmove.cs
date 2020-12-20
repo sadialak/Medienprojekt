@@ -7,15 +7,23 @@ public class Buttonmove : MonoBehaviour
     public GameObject xButton, yButton, aButton, bButton;
     private float respawnTime = 3.0f;
    
-    public int zahl;
+    private int zahl;
+ 
     // Start is called before the first frame update
     void Start()
     {
+
         StartCoroutine(SpawnButton());
+    }
+
+    void Update()
+    {
+      
     }
 
     IEnumerator SpawnButton()
     {
+        
         while (true)
         {
            
@@ -23,7 +31,7 @@ public class Buttonmove : MonoBehaviour
             if (zahl == 1)
             {
                 GameObject a = Instantiate(aButton) as GameObject;
-                
+
             }
             if (zahl == 2)
             {
@@ -43,4 +51,7 @@ public class Buttonmove : MonoBehaviour
             yield return new WaitForSeconds(respawnTime);
         }
     }
+  
+    
+    
 }
