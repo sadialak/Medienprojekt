@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class YButton : MonoBehaviour
 {
+	private GameObject score;
+	private GameObject life;
+    private int spritezahl;
     public SpriteRenderer sprite;
     public Sprite[] array;
     private float position;
@@ -13,6 +16,9 @@ public class YButton : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+		life=GameObject.Find("Life");
+		score=GameObject.Find("Score");
+        spritezahl = 0;
         sprite=this.GetComponent<SpriteRenderer>();
         speed=3.0f;
         controls=new PlayerControls();
@@ -30,30 +36,53 @@ public class YButton : MonoBehaviour
     }
 
     void XTrigger(){
-        sprite.sprite = array[1];
+        if (spritezahl == 0)
+        {
+            sprite.sprite = array[1];
+            spritezahl = 1;
+			score.GetComponent<Score>().IncreaseScore(-10);
+			life.GetComponent<Life>().DecreaseLife();
+        }
     }
 
     void ATrigger(){
-        sprite.sprite = array[1];
+        if (spritezahl == 0)
+        {
+            sprite.sprite = array[1];
+            spritezahl = 1;
+			score.GetComponent<Score>().IncreaseScore(-10);
+			life.GetComponent<Life>().DecreaseLife();
+        }
     }
 
     void BTrigger(){
-        sprite.sprite = array[1];
+        if (spritezahl == 0)
+        {
+            sprite.sprite = array[1];
+            spritezahl = 1;
+			score.GetComponent<Score>().IncreaseScore(-10);
+			life.GetComponent<Life>().DecreaseLife();
+        }
     }
 
     void YTrigger(){
-        if (transform.position.x < 0.5 && transform.position.x>-0.5)
+        if (spritezahl == 0)
         {
-            Destroy(this.gameObject);
-        }
-        else
-        {
-            sprite.sprite = array[1];
+            if (transform.position.x < 0.5 && transform.position.x > -0.5)
+            {
+                Destroy(this.gameObject);
+				score.GetComponent<Score>().IncreaseScore(50);
+            }
+            else
+            {
+                sprite.sprite = array[1];
+                spritezahl = 1;
+				score.GetComponent<Score>().IncreaseScore(-10);
+				life.GetComponent<Life>().DecreaseLife();
+            }
         }
     }
 
-
-    
     void OnEnable(){
         controls.Gameplay.Enable();
     }
@@ -64,11 +93,17 @@ public class YButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x <= -0.5)
+        if (spritezahl == 0)
         {
-            sprite.sprite = array[1];
+            if (transform.position.x <= -0.5)
+            {
+                sprite.sprite = array[1];
+                spritezahl = 1;
+				score.GetComponent<Score>().IncreaseScore(-10);
+				life.GetComponent<Life>().DecreaseLife();
+            }
         }
-        
+
         if (transform.position.x < -6)
         {
             Destroy(this.gameObject);

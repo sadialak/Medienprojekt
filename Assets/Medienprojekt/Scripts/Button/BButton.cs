@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BButton : MonoBehaviour
 {
+	private GameObject score;
+	private GameObject life;
     private SpriteRenderer sprite;
     public Sprite[] array;
     private int spritezahl;
@@ -13,6 +15,8 @@ public class BButton : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+		life=GameObject.Find("Life");
+		score=GameObject.Find("Score");
         spritezahl = 0;
         speed=3.0f;
         sprite=this.GetComponent<SpriteRenderer>();
@@ -31,30 +35,52 @@ public class BButton : MonoBehaviour
     }
 
     void XTrigger(){
-        sprite.sprite = array[1];
-        spritezahl = 1;
-    }
-
-    void ATrigger(){
-        sprite.sprite = array[1];  
-        spritezahl = 1;
-    }
-
-    void BTrigger(){
-        if (transform.position.x < 0.5 && transform.position.x>-0.5 && spritezahl==0)
-        {
-            Destroy(this.gameObject);
-        }
-        else
+        if (spritezahl == 0)
         {
             sprite.sprite = array[1];
             spritezahl = 1;
+			score.GetComponent<Score>().IncreaseScore(-10);
+			life.GetComponent<Life>().DecreaseLife();
+        }
+    }
+
+    void ATrigger(){
+        if (spritezahl == 0)
+        {
+            sprite.sprite = array[1];
+            spritezahl = 1;
+			score.GetComponent<Score>().IncreaseScore(-10);
+			life.GetComponent<Life>().DecreaseLife();
+        }
+    }
+
+    void BTrigger(){
+        if (spritezahl == 0)
+        {
+            if (transform.position.x < 0.5 && transform.position.x > -0.5)
+            {
+                Destroy(this.gameObject);
+				score.GetComponent<Score>().IncreaseScore(50);
+				
+            }
+            else
+            {
+                sprite.sprite = array[1];
+                spritezahl = 1;
+				score.GetComponent<Score>().IncreaseScore(-10);
+				life.GetComponent<Life>().DecreaseLife();
+            }
         }
     }
 
     void YTrigger(){
-        sprite.sprite = array[1];
-        spritezahl = 1;
+        if (spritezahl == 0)
+        {
+            sprite.sprite = array[1];
+            spritezahl = 1;
+			score.GetComponent<Score>().IncreaseScore(-10);
+			life.GetComponent<Life>().DecreaseLife();
+        }
     }
 
     void OnEnable(){
@@ -67,10 +93,15 @@ public class BButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x <= -0.5)
+        if (spritezahl == 0)
         {
-            sprite.sprite = array[1];
-            spritezahl = 1;
+            if (transform.position.x <= -0.5)
+            {
+                sprite.sprite = array[1];
+                spritezahl = 1;
+				score.GetComponent<Score>().IncreaseScore(-10);
+				life.GetComponent<Life>().DecreaseLife();
+            }
         }
 
         if (transform.position.x < -6)

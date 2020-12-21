@@ -465,7 +465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 27342824cec2ee64ab208b2396c0d82c, type: 2}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0.084905684, g: 0.074092224, b: 0.074092224, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -507,15 +507,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8873632384586839091, guid: 36601bf30eb6d5742ac3dde868c42850, type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0.18970275
       objectReference: {fileID: 0}
     - target: {fileID: -8873632384586839091, guid: 36601bf30eb6d5742ac3dde868c42850, type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0.18970275
       objectReference: {fileID: 0}
     - target: {fileID: -8873632384586839091, guid: 36601bf30eb6d5742ac3dde868c42850, type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0.8207547
+      objectReference: {fileID: 0}
+    - target: {fileID: -8873632384586839091, guid: 36601bf30eb6d5742ac3dde868c42850, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8873632384586839091, guid: 36601bf30eb6d5742ac3dde868c42850, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8873632384586839091, guid: 36601bf30eb6d5742ac3dde868c42850, type: 3}
       propertyPath: m_MaskInteraction
@@ -523,8 +531,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8873632384586839091, guid: 36601bf30eb6d5742ac3dde868c42850, type: 3}
       propertyPath: m_SpriteSortPoint
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8873632384586839091, guid: 36601bf30eb6d5742ac3dde868c42850, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 27342824cec2ee64ab208b2396c0d82c, type: 2}
     - target: {fileID: -6951969741216955596, guid: 36601bf30eb6d5742ac3dde868c42850, type: 3}
       propertyPath: m_Name
       value: ButtonBackground
@@ -810,8 +822,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4280409056
+  m_fontColor: {r: 0.8773585, g: 0.8570465, b: 0.12829298, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -912,7 +924,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -98.773, y: 220.5}
+  m_AnchoredPosition: {x: -98.773, y: 158}
   m_SizeDelta: {x: 197.54584, y: 78.63159}
   m_Pivot: {x: 0.000000019397312, y: 0.76549566}
 --- !u!114 &1810472432
@@ -935,7 +947,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cross Art Reality Game
+  m_text: "Cross Reality Game Art\n\t  Installation"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -944,8 +956,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4279572504
+  m_fontColor: {r: 0.09433961, g: 0.0942223, b: 0.080544665, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

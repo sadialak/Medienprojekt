@@ -2,23 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using TMPro;
+
 public class Buttonmove : MonoBehaviour
 {
     public GameObject xButton, yButton, aButton, bButton;
     private float respawnTime = 3.0f;
-   
     private int zahl;
+	private GameObject life;
+
  
     // Start is called before the first frame update
     void Start()
     {
-
+		life=GameObject.Find("Life");
         StartCoroutine(SpawnButton());
     }
-
+    
+    
     void Update()
     {
-      
+       if(life.GetComponent<Life>().GetLife()<1){
+
+		}
+
     }
 
     IEnumerator SpawnButton()

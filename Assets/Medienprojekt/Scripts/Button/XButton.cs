@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class XButton : MonoBehaviour
 {
+	private GameObject score;
+	private GameObject life;
+    private int spritezahl;
     private SpriteRenderer sprite;
     public Sprite[] array;
     private float speed;
@@ -12,6 +15,9 @@ public class XButton : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        spritezahl = 0;
+        life=GameObject.Find("Life");
+		score=GameObject.Find("Score");
         speed=3.0f;
         sprite=this.GetComponent<SpriteRenderer>();
         controls=new PlayerControls();
@@ -29,26 +35,51 @@ public class XButton : MonoBehaviour
     }
 
     void XTrigger(){
-        if (transform.position.x < 0.5 && transform.position.x>-0.5)
+        if (spritezahl == 0)
         {
-            Destroy(this.gameObject);
-        }
-        else
-        {
-            sprite.sprite = array[1];
+            if (transform.position.x < 0.5 && transform.position.x > -0.5)
+            {
+                Destroy(this.gameObject);
+				score.GetComponent<Score>().IncreaseScore(50);
+            }
+            else
+            {
+                sprite.sprite = array[1];
+                spritezahl = 1;
+				score.GetComponent<Score>().IncreaseScore(-10);
+				life.GetComponent<Life>().DecreaseLife();
+            }
         }
     }
 
     void ATrigger(){
-        sprite.sprite = array[1];  
+        if (spritezahl == 0)
+        {
+            sprite.sprite = array[1];
+            spritezahl = 1;
+			score.GetComponent<Score>().IncreaseScore(-10);
+			life.GetComponent<Life>().DecreaseLife();
+        }
     }
 
     void BTrigger(){
-        sprite.sprite = array[1];
+        if (spritezahl == 0)
+        {
+            sprite.sprite = array[1];
+            spritezahl = 1;
+			score.GetComponent<Score>().IncreaseScore(-10);
+			life.GetComponent<Life>().DecreaseLife();
+        }
     }
 
     void YTrigger(){
-        sprite.sprite = array[1];
+        if (spritezahl == 0)
+        {
+            sprite.sprite = array[1];
+            spritezahl = 1;
+			score.GetComponent<Score>().IncreaseScore(-10);
+			life.GetComponent<Life>().DecreaseLife();
+        }
     }
 
     void OnEnable(){
@@ -61,9 +92,15 @@ public class XButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x <= -0.5)
+        if (spritezahl == 0)
         {
-            sprite.sprite = array[1];
+            if (transform.position.x <= -0.5)
+            {
+                sprite.sprite = array[1];
+                spritezahl = 1;
+				score.GetComponent<Score>().IncreaseScore(-10);
+				life.GetComponent<Life>().DecreaseLife();
+            }
         }
 
         if (transform.position.x < -6)
