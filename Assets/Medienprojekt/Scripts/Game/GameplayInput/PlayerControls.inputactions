@@ -7,7 +7,7 @@
             "actions": [
                 {
                     "name": "XSmash",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "4d95c747-9d57-4394-80de-75a79cf6d9cd",
                     "expectedControlType": "Button",
                     "processors": "",
@@ -33,6 +33,22 @@
                     "name": "YSmash",
                     "type": "Button",
                     "id": "49ea8200-77d9-41e1-b81e-42d13fe4b217",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Start",
+                    "type": "Button",
+                    "id": "c2b3e477-7da1-41e6-b204-49a5a910fcc4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Select",
+                    "type": "Button",
+                    "id": "46887a77-db80-47f7-a5d4-912a9cb530a0",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -82,31 +98,26 @@
                     "action": "YSmash",
                     "isComposite": false,
                     "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "PressStart",
-            "id": "b0ba3b83-3f58-4ae1-acae-983790233abe",
-            "actions": [
-                {
-                    "name": "Start",
-                    "type": "Button",
-                    "id": "1f1353de-18c5-4ab9-a865-44f3049bd38a",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": ""
-                }
-            ],
-            "bindings": [
+                },
                 {
                     "name": "",
-                    "id": "09a8513a-44e0-435e-a60d-59e6988a3ca2",
+                    "id": "590727e8-04e9-4740-89a0-9872c234d348",
                     "path": "<HID::usb gamepad           >/button10",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d1f5c2de-0b4d-4db9-bdba-5bb0c9f27357",
+                    "path": "<HID::usb gamepad           >/button9",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Select",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

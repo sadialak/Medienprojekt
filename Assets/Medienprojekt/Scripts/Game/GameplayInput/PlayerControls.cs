@@ -1,4 +1,4 @@
-// GENERATED AUTOMATICALLY FROM 'Assets/Medienprojekt/Scripts/GameplayInput/PlayerControls.inputactions'
+// GENERATED AUTOMATICALLY FROM 'Assets/Medienprojekt/Scripts/Game/GameplayInput/PlayerControls.inputactions'
 
 using System;
 using System.Collections;
@@ -20,7 +20,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
             ""actions"": [
                 {
                     ""name"": ""XSmash"",
-                    ""type"": ""Button"",
+                    ""type"": ""Value"",
                     ""id"": ""4d95c747-9d57-4394-80de-75a79cf6d9cd"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
@@ -46,6 +46,22 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""name"": ""YSmash"",
                     ""type"": ""Button"",
                     ""id"": ""49ea8200-77d9-41e1-b81e-42d13fe4b217"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Start"",
+                    ""type"": ""Button"",
+                    ""id"": ""c2b3e477-7da1-41e6-b204-49a5a910fcc4"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Select"",
+                    ""type"": ""Button"",
+                    ""id"": ""46887a77-db80-47f7-a5d4-912a9cb530a0"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
@@ -95,31 +111,26 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""action"": ""YSmash"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""PressStart"",
-            ""id"": ""b0ba3b83-3f58-4ae1-acae-983790233abe"",
-            ""actions"": [
-                {
-                    ""name"": ""Start"",
-                    ""type"": ""Button"",
-                    ""id"": ""1f1353de-18c5-4ab9-a865-44f3049bd38a"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
-                }
-            ],
-            ""bindings"": [
+                },
                 {
                     ""name"": """",
-                    ""id"": ""09a8513a-44e0-435e-a60d-59e6988a3ca2"",
+                    ""id"": ""590727e8-04e9-4740-89a0-9872c234d348"",
                     ""path"": ""<HID::usb gamepad           >/button10"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Start"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d1f5c2de-0b4d-4db9-bdba-5bb0c9f27357"",
+                    ""path"": ""<HID::usb gamepad           >/button9"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Select"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -134,9 +145,8 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         m_Gameplay_ASmash = m_Gameplay.FindAction("ASmash", throwIfNotFound: true);
         m_Gameplay_BSmash = m_Gameplay.FindAction("BSmash", throwIfNotFound: true);
         m_Gameplay_YSmash = m_Gameplay.FindAction("YSmash", throwIfNotFound: true);
-        // PressStart
-        m_PressStart = asset.FindActionMap("PressStart", throwIfNotFound: true);
-        m_PressStart_Start = m_PressStart.FindAction("Start", throwIfNotFound: true);
+        m_Gameplay_Start = m_Gameplay.FindAction("Start", throwIfNotFound: true);
+        m_Gameplay_Select = m_Gameplay.FindAction("Select", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -190,6 +200,8 @@ public class @PlayerControls : IInputActionCollection, IDisposable
     private readonly InputAction m_Gameplay_ASmash;
     private readonly InputAction m_Gameplay_BSmash;
     private readonly InputAction m_Gameplay_YSmash;
+    private readonly InputAction m_Gameplay_Start;
+    private readonly InputAction m_Gameplay_Select;
     public struct GameplayActions
     {
         private @PlayerControls m_Wrapper;
@@ -198,6 +210,8 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         public InputAction @ASmash => m_Wrapper.m_Gameplay_ASmash;
         public InputAction @BSmash => m_Wrapper.m_Gameplay_BSmash;
         public InputAction @YSmash => m_Wrapper.m_Gameplay_YSmash;
+        public InputAction @Start => m_Wrapper.m_Gameplay_Start;
+        public InputAction @Select => m_Wrapper.m_Gameplay_Select;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -219,6 +233,12 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @YSmash.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnYSmash;
                 @YSmash.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnYSmash;
                 @YSmash.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnYSmash;
+                @Start.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnStart;
+                @Start.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnStart;
+                @Start.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnStart;
+                @Select.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSelect;
+                @Select.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSelect;
+                @Select.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSelect;
             }
             m_Wrapper.m_GameplayActionsCallbackInterface = instance;
             if (instance != null)
@@ -235,52 +255,23 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @YSmash.started += instance.OnYSmash;
                 @YSmash.performed += instance.OnYSmash;
                 @YSmash.canceled += instance.OnYSmash;
+                @Start.started += instance.OnStart;
+                @Start.performed += instance.OnStart;
+                @Start.canceled += instance.OnStart;
+                @Select.started += instance.OnSelect;
+                @Select.performed += instance.OnSelect;
+                @Select.canceled += instance.OnSelect;
             }
         }
     }
     public GameplayActions @Gameplay => new GameplayActions(this);
-
-    // PressStart
-    private readonly InputActionMap m_PressStart;
-    private IPressStartActions m_PressStartActionsCallbackInterface;
-    private readonly InputAction m_PressStart_Start;
-    public struct PressStartActions
-    {
-        private @PlayerControls m_Wrapper;
-        public PressStartActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Start => m_Wrapper.m_PressStart_Start;
-        public InputActionMap Get() { return m_Wrapper.m_PressStart; }
-        public void Enable() { Get().Enable(); }
-        public void Disable() { Get().Disable(); }
-        public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(PressStartActions set) { return set.Get(); }
-        public void SetCallbacks(IPressStartActions instance)
-        {
-            if (m_Wrapper.m_PressStartActionsCallbackInterface != null)
-            {
-                @Start.started -= m_Wrapper.m_PressStartActionsCallbackInterface.OnStart;
-                @Start.performed -= m_Wrapper.m_PressStartActionsCallbackInterface.OnStart;
-                @Start.canceled -= m_Wrapper.m_PressStartActionsCallbackInterface.OnStart;
-            }
-            m_Wrapper.m_PressStartActionsCallbackInterface = instance;
-            if (instance != null)
-            {
-                @Start.started += instance.OnStart;
-                @Start.performed += instance.OnStart;
-                @Start.canceled += instance.OnStart;
-            }
-        }
-    }
-    public PressStartActions @PressStart => new PressStartActions(this);
     public interface IGameplayActions
     {
         void OnXSmash(InputAction.CallbackContext context);
         void OnASmash(InputAction.CallbackContext context);
         void OnBSmash(InputAction.CallbackContext context);
         void OnYSmash(InputAction.CallbackContext context);
-    }
-    public interface IPressStartActions
-    {
         void OnStart(InputAction.CallbackContext context);
+        void OnSelect(InputAction.CallbackContext context);
     }
 }

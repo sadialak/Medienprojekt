@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class Buttonmove : MonoBehaviour
@@ -23,7 +23,7 @@ public class Buttonmove : MonoBehaviour
     void Update()
     {
        if(life.GetComponent<Life>().GetLife()<1){
-
+			SceneManager.LoadScene("GameOver");
 		}
 
     }
