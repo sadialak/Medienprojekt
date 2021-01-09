@@ -10,11 +10,12 @@ public class Buttonmove : MonoBehaviour
     private float respawnTime = 3.0f;
     private int zahl;
 	private GameObject life;
-
+    private GameObject score;
  
     // Start is called before the first frame update
     void Start()
     {
+        score = GameObject.Find("Score");
 		life=GameObject.Find("Life");
         StartCoroutine(SpawnButton());
     }
@@ -22,6 +23,10 @@ public class Buttonmove : MonoBehaviour
     
     void Update()
     {
+        if (score.GetComponent<Score>().GetScore() >= 500)
+        {
+            respawnTime = 1.2f;
+        }
        if(life.GetComponent<Life>().GetLife()<1){
 			SceneManager.LoadScene("GameOver");
 		}

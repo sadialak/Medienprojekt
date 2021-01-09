@@ -92,6 +92,9 @@ public class XButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(score.GetComponent<Score>().GetScore()>=500){
+            IncreaseSpeed(7.0f);
+        }
         if (spritezahl == 0)
         {
             if (transform.position.x <= -0.5)
