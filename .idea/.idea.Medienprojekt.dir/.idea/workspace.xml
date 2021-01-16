@@ -21,6 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1002e1e2-28c9-4288-8a34-d11ac4c4cbe4" name="Default Changelist" comment="Stand 21.12.20:Leben und Score Anzeige integriert">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/A-Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/A-Button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/B-Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/B-Button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/X-Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/X-Button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/Y-Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/Y-Button.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/GameOver.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/MainMenu.unity" afterDir="false" />
@@ -28,7 +32,19 @@
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/BButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/BButton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/XButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/XButton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/YButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/YButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/MainCamera/Buttonmove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/MainCamera/Buttonmove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,17 +55,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.1.13f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/XButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/MainMenu/Start.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/BButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameOver/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/AButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Score.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.1.13f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/MainMenu/Start.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.1.13f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/MainCamera/Buttonmove.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Erweiterungen/Scripts/ActiveStateToggler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Score.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/YButton.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -69,12 +86,13 @@
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/MainMenu/PressStart.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameOver/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/MainMenu/Start.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/MainCamera/Buttonmove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/AButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/BButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/XButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/YButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/MainCamera/Buttonmove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/YButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/XButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/BButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/AButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +132,8 @@
       <workItem from="1609268883685" duration="1451000" />
       <workItem from="1609348067714" duration="2078000" />
       <workItem from="1609351928062" duration="1248000" />
-      <workItem from="1610216761116" duration="457000" />
+      <workItem from="1610216761116" duration="5418000" />
+      <workItem from="1610724880261" duration="1244000" />
     </task>
     <task id="LOCAL-00001" summary="Folder erstellt. Unter &quot;eigentliches Medienprojekt&quot; werden die Sachen reingemacht, die wirklich schlussendlich etwas mit unserem Medienprojekt zu tun haben werden.">
       <created>1607114011246</created>
@@ -193,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609151183657</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Get Camera included (broken)">
+      <created>1610218019285</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610218019285</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,17 +250,18 @@
     <MESSAGE value="Stand 21.12.20: Leben und Score Anzeige integriert" />
     <MESSAGE value="Stand 21.12.20:Leben und Score Anzeige integriert" />
     <MESSAGE value="Stand 28.12.20: Prototyp bis auf Audio und Kamera vorhanden (Einbindung von Intro fehlt)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stand 28.12.20: Prototyp bis auf Audio und Kamera vorhanden (Einbindung von Intro fehlt)" />
+    <MESSAGE value="Get Camera included (broken)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get Camera included (broken)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607113237699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607113237699" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609151195331">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610218027812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609151195331" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610218027812" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609151208174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

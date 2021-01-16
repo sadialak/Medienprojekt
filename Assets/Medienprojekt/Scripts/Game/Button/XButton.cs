@@ -12,9 +12,11 @@ public class XButton : MonoBehaviour
     private float speed;
     private Rigidbody2D rb;
     private PlayerControls controls;
+	
     // Start is called before the first frame update
     void Awake()
     {
+		
         spritezahl = 0;
         life=GameObject.Find("Life");
 		score=GameObject.Find("Score");
@@ -39,8 +41,11 @@ public class XButton : MonoBehaviour
         {
             if (transform.position.x < 0.5 && transform.position.x > -0.5)
             {
+                FindObjectOfType<AudioManager>().Play("X");
                 Destroy(this.gameObject);
 				score.GetComponent<Score>().IncreaseScore(50);
+				
+				
             }
             else
             {
