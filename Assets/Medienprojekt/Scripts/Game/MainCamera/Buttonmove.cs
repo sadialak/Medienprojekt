@@ -27,9 +27,7 @@ public class Buttonmove : MonoBehaviour
         {
             respawnTime = 1.2f;
         }
-       if(life.GetComponent<Life>().GetLife()<1){
-			SceneManager.LoadScene("GameOver");
-		}
+
 
     }
 

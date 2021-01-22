@@ -4,16 +4,22 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour
 {
+	private WebCamTexture web;
     private PlayerControls controls;
     // Start is called before the first frame update
     void Awake()
     {
+		
+        web = new WebCamTexture();
+        GetComponent<Renderer>().material.mainTexture = web;
+        web.Play();
         controls = new PlayerControls();
         controls.Gameplay.Start.performed += ctx => NextScene();
     }
 
     void NextScene()
     {
+		web.Stop();
         SceneManager.LoadScene("MainMenu");
     }
 
