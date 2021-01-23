@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Medienprojekt/Scenes/GameOver.unity
     guid: c6ff1657b63034147a3f527d66910d15
   m_configObjects:
-    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: ec591d673ff38dd41b8f0208b9ed6881,
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 6ee9adfa0687e294b90a6e4a625a7fb4,
       type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 50b5d14ec2fc34942a531dd6556dbb39,
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 95c73af7cd757f847977dc4fd8357600,
       type: 2}
