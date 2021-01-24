@@ -65,6 +65,38 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Oben"",
+                    ""type"": ""Button"",
+                    ""id"": ""d04e3cfc-03ec-452a-ab5f-135d54848958"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Unten"",
+                    ""type"": ""Button"",
+                    ""id"": ""ddf901c6-9e3e-4a81-a015-22dc458f7964"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Links"",
+                    ""type"": ""Button"",
+                    ""id"": ""4afffcb4-8e32-42c7-a052-93388a4423b0"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Rechts"",
+                    ""type"": ""Button"",
+                    ""id"": ""c4dd3fc2-a989-4bc4-bfb3-5cb8b64ed061"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -133,6 +165,50 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""action"": ""Select"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2ccfba7c-ee99-4702-a372-b0ce74e9c638"",
+                    ""path"": ""<Joystick>/stick/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Oben"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8cbf27b3-a84b-4844-a40a-62d0d1a4059f"",
+                    ""path"": ""<Joystick>/stick/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Unten"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a80d2ef9-56e6-4f19-8196-9216807d1346"",
+                    ""path"": ""<Joystick>/stick/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Links"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""620ae599-f1bd-43cb-93cf-b62bcd2b6a4c"",
+                    ""path"": ""<Joystick>/stick/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Rechts"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -147,6 +223,10 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         m_Gameplay_YSmash = m_Gameplay.FindAction("YSmash", throwIfNotFound: true);
         m_Gameplay_Start = m_Gameplay.FindAction("Start", throwIfNotFound: true);
         m_Gameplay_Select = m_Gameplay.FindAction("Select", throwIfNotFound: true);
+        m_Gameplay_Oben = m_Gameplay.FindAction("Oben", throwIfNotFound: true);
+        m_Gameplay_Unten = m_Gameplay.FindAction("Unten", throwIfNotFound: true);
+        m_Gameplay_Links = m_Gameplay.FindAction("Links", throwIfNotFound: true);
+        m_Gameplay_Rechts = m_Gameplay.FindAction("Rechts", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -202,6 +282,10 @@ public class @PlayerControls : IInputActionCollection, IDisposable
     private readonly InputAction m_Gameplay_YSmash;
     private readonly InputAction m_Gameplay_Start;
     private readonly InputAction m_Gameplay_Select;
+    private readonly InputAction m_Gameplay_Oben;
+    private readonly InputAction m_Gameplay_Unten;
+    private readonly InputAction m_Gameplay_Links;
+    private readonly InputAction m_Gameplay_Rechts;
     public struct GameplayActions
     {
         private @PlayerControls m_Wrapper;
@@ -212,6 +296,10 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         public InputAction @YSmash => m_Wrapper.m_Gameplay_YSmash;
         public InputAction @Start => m_Wrapper.m_Gameplay_Start;
         public InputAction @Select => m_Wrapper.m_Gameplay_Select;
+        public InputAction @Oben => m_Wrapper.m_Gameplay_Oben;
+        public InputAction @Unten => m_Wrapper.m_Gameplay_Unten;
+        public InputAction @Links => m_Wrapper.m_Gameplay_Links;
+        public InputAction @Rechts => m_Wrapper.m_Gameplay_Rechts;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -239,6 +327,18 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @Select.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSelect;
                 @Select.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSelect;
                 @Select.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnSelect;
+                @Oben.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnOben;
+                @Oben.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnOben;
+                @Oben.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnOben;
+                @Unten.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnUnten;
+                @Unten.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnUnten;
+                @Unten.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnUnten;
+                @Links.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnLinks;
+                @Links.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnLinks;
+                @Links.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnLinks;
+                @Rechts.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRechts;
+                @Rechts.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRechts;
+                @Rechts.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRechts;
             }
             m_Wrapper.m_GameplayActionsCallbackInterface = instance;
             if (instance != null)
@@ -261,6 +361,18 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @Select.started += instance.OnSelect;
                 @Select.performed += instance.OnSelect;
                 @Select.canceled += instance.OnSelect;
+                @Oben.started += instance.OnOben;
+                @Oben.performed += instance.OnOben;
+                @Oben.canceled += instance.OnOben;
+                @Unten.started += instance.OnUnten;
+                @Unten.performed += instance.OnUnten;
+                @Unten.canceled += instance.OnUnten;
+                @Links.started += instance.OnLinks;
+                @Links.performed += instance.OnLinks;
+                @Links.canceled += instance.OnLinks;
+                @Rechts.started += instance.OnRechts;
+                @Rechts.performed += instance.OnRechts;
+                @Rechts.canceled += instance.OnRechts;
             }
         }
     }
@@ -273,5 +385,9 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         void OnYSmash(InputAction.CallbackContext context);
         void OnStart(InputAction.CallbackContext context);
         void OnSelect(InputAction.CallbackContext context);
+        void OnOben(InputAction.CallbackContext context);
+        void OnUnten(InputAction.CallbackContext context);
+        void OnLinks(InputAction.CallbackContext context);
+        void OnRechts(InputAction.CallbackContext context);
     }
 }

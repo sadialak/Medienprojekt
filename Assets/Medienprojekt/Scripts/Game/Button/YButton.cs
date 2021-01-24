@@ -42,7 +42,7 @@ public class YButton : MonoBehaviour
         {
             sprite.sprite = array[1];
             spritezahl = 1;
-			score.GetComponent<Score>().IncreaseScore(-10);
+			 FindObjectOfType<AudioManager>().Play("X");
 			life.GetComponent<Life>().DecreaseLife();
         }
     }
@@ -52,7 +52,7 @@ public class YButton : MonoBehaviour
         {
             sprite.sprite = array[1];
             spritezahl = 1;
-			score.GetComponent<Score>().IncreaseScore(-10);
+			 FindObjectOfType<AudioManager>().Play("A");
 			life.GetComponent<Life>().DecreaseLife();
         }
     }
@@ -62,7 +62,7 @@ public class YButton : MonoBehaviour
         {
             sprite.sprite = array[1];
             spritezahl = 1;
-			score.GetComponent<Score>().IncreaseScore(-10);
+			 FindObjectOfType<AudioManager>().Play("B");
 			life.GetComponent<Life>().DecreaseLife();
         }
     }
@@ -82,7 +82,7 @@ public class YButton : MonoBehaviour
             {
                 sprite.sprite = array[1];
                 spritezahl = 1;
-				score.GetComponent<Score>().IncreaseScore(-10);
+				 FindObjectOfType<AudioManager>().Play("Y");
 				life.GetComponent<Life>().DecreaseLife();
             }
         }
@@ -107,7 +107,7 @@ public class YButton : MonoBehaviour
             {
                 sprite.sprite = array[1];
                 spritezahl = 1;
-				score.GetComponent<Score>().IncreaseScore(-10);
+				
 				life.GetComponent<Life>().DecreaseLife();
             }
         }

@@ -17,6 +17,10 @@ public class Player : MonoBehaviour
 		controls.Gameplay.ASmash.performed+=ctx => StartCoroutine(SetAColor());
 		controls.Gameplay.BSmash.performed+=ctx =>  StartCoroutine(SetBColor());
 		controls.Gameplay.YSmash.performed+=ctx =>  StartCoroutine(SetYColor());
+		controls.Gameplay.Oben.performed += ctx => Nice();
+		controls.Gameplay.Unten.performed += ctx => GoodJob();
+		controls.Gameplay.Links.performed += ctx => Fail();
+		controls.Gameplay.Rechts.performed += ctx => Cool();
     }
 
 	IEnumerator SetAColor()
@@ -59,7 +63,25 @@ public class Player : MonoBehaviour
 
 	}
 
+	void Nice()
+	{
+		FindObjectOfType<AudioManager>().Play("Nice");
+	}
 
+	void GoodJob()
+	{
+		FindObjectOfType<AudioManager>().Play("GoodJob");
+	}
+
+	void Cool()
+	{
+		FindObjectOfType<AudioManager>().Play("Cool");
+	}
+
+	void Fail()
+	{
+		FindObjectOfType<AudioManager>().Play("Fail");
+	}
 	void OnEnable(){
 	controls.Gameplay.Enable();
 	}
