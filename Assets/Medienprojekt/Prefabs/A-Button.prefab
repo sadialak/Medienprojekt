@@ -149,7 +149,7 @@ MonoBehaviour:
   array:
   - {fileID: 3286163911610860551, guid: a7e3dbe995a7e3749ba35e5cf41f92c7, type: 3}
   - {fileID: 3286163911610860551, guid: ee84b79d0ebae41499d7f39edcd9fec6, type: 3}
-  sound: {fileID: 0}
+  speed: 0
 --- !u!82 &1776321390344682435
 AudioSource:
   m_ObjectHideFlags: 0

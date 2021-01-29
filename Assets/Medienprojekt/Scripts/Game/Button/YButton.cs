@@ -10,7 +10,7 @@ public class YButton : MonoBehaviour
     public SpriteRenderer sprite;
     public Sprite[] array;
     private float position;
-    private float speed;
+    public float speed;
     private Rigidbody2D rb;
     private PlayerControls controls;
 	

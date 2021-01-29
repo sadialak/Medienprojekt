@@ -9,7 +9,7 @@ public class AButton : MonoBehaviour
     private int spritezahl;
     private SpriteRenderer sprite;
     public Sprite[] array;
-    private float speed;
+    public float speed;
     private Rigidbody2D rb;
     private PlayerControls controls;
 

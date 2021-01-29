@@ -20,16 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a165952d-32d2-460f-8ef1-eb14cdc687e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Erweiterungen/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Erweiterungen/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Erweiterungen/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Erweiterungen/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Scenes/GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/GameOver.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MainCamera/Buttonmove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MainCamera/Buttonmove.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../QCAR/somedata16" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +31,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BButton.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MainCamera/Buttonmove.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1lxporN0UpwfigpVxLjQENJumO0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -48,16 +46,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="a165952d-32d2-460f-8ef1-eb14cdc687e6" name="Default Changelist" comment="" />
       <created>1608548797094</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608548797094</updated>
       <workItem from="1608548807103" duration="6000" />
+      <workItem from="1611763785243" duration="1346000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -69,6 +74,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

@@ -17,6 +17,8 @@ public class CountdownTimer : MonoBehaviour
 
     }
 
+
+
     void Update()
     {
         currentTime -= 1 * Time.deltaTime;
@@ -26,5 +28,11 @@ public class CountdownTimer : MonoBehaviour
         {
             currentTime = 0;
         }
+        
+    }
+
+    public float GetCurrentTime()
+    {
+        return currentTime;
     }
 }

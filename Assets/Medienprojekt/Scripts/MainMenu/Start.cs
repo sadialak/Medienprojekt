@@ -20,7 +20,7 @@ public class Start : MonoBehaviour
     void NextScene()
     {
 		web.Stop();
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("CountDown");
     }
 
     // Update is called once per frame

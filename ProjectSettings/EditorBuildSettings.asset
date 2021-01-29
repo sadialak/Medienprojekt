@@ -9,8 +9,17 @@ EditorBuildSettings:
     path: Assets/Medienprojekt/Scenes/MainMenu.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Medienprojekt/Scenes/Countdown.unity
+    guid: d6f728996d4eb1844aa522ec66f484c1
+  - enabled: 1
     path: Assets/Medienprojekt/Scenes/Game.unity
     guid: fbd364f1b65d171458a8190c490665f3
+  - enabled: 1
+    path: Assets/Medienprojekt/Scenes/LevelUp.unity
+    guid: ce8c00756eecc8b469af73d266591af4
+  - enabled: 1
+    path: Assets/Medienprojekt/Scenes/Game2.unity
+    guid: dd6e999375801c24286345ce2fe0c7a2
   - enabled: 1
     path: Assets/Medienprojekt/Scenes/GameOver.unity
     guid: c6ff1657b63034147a3f527d66910d15

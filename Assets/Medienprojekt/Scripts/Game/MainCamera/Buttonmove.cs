@@ -7,7 +7,7 @@ using TMPro;
 public class Buttonmove : MonoBehaviour
 {
     public GameObject xButton, yButton, aButton, bButton;
-    private float respawnTime = 3.0f;
+    public float respawnTime = 3.0f;
     private int zahl;
 	private GameObject life;
     private GameObject score;

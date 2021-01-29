@@ -9,7 +9,7 @@ public class BButton : MonoBehaviour
     private SpriteRenderer sprite;
     public Sprite[] array;
     private int spritezahl;
-    private float speed;
+    public float speed;
     private Rigidbody2D rb;
     private PlayerControls controls;
 	

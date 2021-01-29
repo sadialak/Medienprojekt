@@ -20,23 +20,264 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1002e1e2-28c9-4288-8a34-d11ac4c4cbe4" name="Default Changelist" comment="Stand 21.12.20:Leben und Score Anzeige integriert">
+      <change afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Sounds/Music.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Sounds/SteuerkreuzSounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Sounds/SteuerkreuzSounds/Nice.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Sounds/SteuerkreuzSounds/Nice.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Materials/Slider Fill.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Erweiterungen/Materials/Slider Fill.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Materials/Slider Knob.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Erweiterungen/Materials/Slider Knob.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Erweiterungen/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Migration.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Migration/AddVuforiaEnginePackage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Migration/AddVuforiaEnginePackage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Migration/EditorMigrationScripts.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Migration/EditorMigrationScripts.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/MainMenu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/MainMenu/Closed.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/MainMenu/Closed.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/MainMenu/MainMenu.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/MainMenu/MainMenu.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/MainMenu/Open.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/MainMenu/Open.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Panel.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Panel/Closed.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Panel/Closed.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Panel/Closing.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Panel/Closing.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Panel/Open.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Panel/Open.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Panel/Panel.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Panel/Panel.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Rotation.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Rotation.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/SF Button.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/SF Button.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Settings/Closed.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Settings/Closed.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Settings/Open.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Settings/Open.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Settings/SettingsMenu.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Animation/Settings/SettingsMenu.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Common.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Migration/AddVuforiaEnginePackage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Migration/AddVuforiaEnginePackage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Migration/EditorMigrationScripts.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Migration/EditorMigrationScripts.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/CylinderTargetTextures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images/authoringinfo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/CylinderTargetTextures/VuforiaMars_Images/authoringinfo.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/ForPrint.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/ForPrint/CylinderTarget.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/ForPrint/CylinderTarget/cylinder_booster_USLetter.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/ForPrint/CylinderTarget/cylinder_booster_USLetter.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/ImageTargetTextures/VuforiaEmulator/emulator_ground_plane_scaled.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/ImageTargetTextures/VuforiaEmulator/emulator_ground_plane_scaled.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Astronaut_scaled.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Astronaut_scaled.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Drone_scaled.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Drone_scaled.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Fissure_scaled.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/ImageTargetTextures/VuforiaMars_Images/Fissure_scaled.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/TargetsetData/VuforiaMars_Object/80a921afee0341b991f24822f2a1e228_preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/TargetsetData/VuforiaMars_Object/80a921afee0341b991f24822f2a1e228_preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/VuforiaMars_ModelTarget/91f5220e29224e4fa198e66214e43292.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/VuforiaMars_ModelTarget/authoringinfo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/VuforiaMars_ModelTarget/authoringinfo.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/VuforiaMars_VuMark/authoringinfo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/VuforiaMars_VuMark/authoringinfo.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/VuforiaMars_VuMark/ec2533ebd7d84669b28886a4f32bc7ec_scaled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/VuforiaMars_VuMark/ec2533ebd7d84669b28886a4f32bc7ec_scaled.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/Vuforia_Marslander_RZR_Toy360/531fd89ee0b74baa86c1e50d877121e1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/Vuforia_Marslander_RZR_Toy360/531fd89ee0b74baa86c1e50d877121e1/bb1cf8f64dc54f759687d193f19ee4af_preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/Vuforia_Marslander_RZR_Toy360/531fd89ee0b74baa86c1e50d877121e1/bb1cf8f64dc54f759687d193f19ee4af_preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/Vuforia_Marslander_RZR_Toy360/authoringinfo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/Vuforia_Marslander_RZR_Toy360/authoringinfo.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Editor/Vuforia/Vuforia_Marslander_RZR_Toy360/d47e9b97bf9b4ecd8afe939754eec55f.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Fonts/Jupiter.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Fonts/Jupiter/Jupiter.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Fonts/Jupiter/Jupiter.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Fonts/Jupiter/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Fonts/Jupiter/LICENSE.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/Android.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/Android/Icon-36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/Android/Icon-36.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/Android/Icon-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/Android/Icon-48.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/Android/Icon-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-20.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-29.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-32.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-40.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-48.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-50.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-55.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-57.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-58.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-60.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-64.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Icons/iOS/Icon-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Materials/Slider Background.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Materials/Slider Background.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Materials/Slider Fill.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Materials/Slider Fill.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Materials/Slider Knob.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Materials/Slider Knob.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Materials/UI Opaque.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Materials/UI Opaque.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Materials/UI-Default-No-Alpha.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Materials/UI-Default-No-Alpha.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Materials/Window.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Materials/Window.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Models/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Models/Materials/vehicle_rcFlyer_dome_mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Models/Materials/vehicle_rcFlyer_dome_mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Models/Materials/vehicle_rcFlyer_metal_mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Models/Materials/vehicle_rcFlyer_metal_mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Models/Materials/vehicle_rcLand_clean_dome_mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Models/Materials/vehicle_rcLand_clean_dome_mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Models/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Models/Textures/vehicle_rcFlyer_dff.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Models/Textures/vehicle_rcFlyer_dff.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Models/Textures/vehicle_rcFlyer_nrm.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Models/Textures/vehicle_rcFlyer_nrm.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Models/vehicle_rcFlyer_clean.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Models/vehicle_rcFlyer_clean.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Plugins/Lumin/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Prefabs/SF Button.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Prefabs/SF Button.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Prefabs/SF Grid Button.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Prefabs/SF Grid Button.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Prefabs/SF Scene Elements.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Prefabs/SF Scene Elements.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Prefabs/SF Slider.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Prefabs/SF Slider.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Prefabs/SF Title.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Prefabs/SF Title.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Prefabs/SF Toggle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Prefabs/SF Toggle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Prefabs/Slider Lit.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Prefabs/Slider Lit.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Animation/Astronaut.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Animation/Astronaut/Astronaut.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Animation/Astronaut/Astronaut.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Materials/Astronaut.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Materials/Astronaut/Astronaut.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Materials/Astronaut/Astronaut.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Materials/Astronaut/Drill.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Materials/Astronaut/Drill.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Models/Astronaut.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Models/Astronaut.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Textures/Astronaut.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Textures/Astronaut/Astronaut_AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Textures/Astronaut/Astronaut_AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Textures/Astronaut/Astronaut_Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Textures/Astronaut/Astronaut_Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_AO.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_AO.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_Albedo.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/AugmentationAssets/Textures/Astronaut/Materials/Astronaut_Albedo.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/InstantImageTarget/Astronaut.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/SamplesResources/InstantImageTarget/Astronaut.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scenes/Controls.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scenes/Controls.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scenes/Drag And Drop.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scenes/Drag And Drop.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scenes/Draggable Panel.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scenes/Draggable Panel.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scenes/Layout Groups.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scenes/Layout Groups.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scenes/Lighting.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scenes/Lighting.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scenes/Menu 3D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scenes/Menu 3D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scenes/New Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scenes/New Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scenes/RenderTexture.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scenes/RenderTexture.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/ActiveStateToggler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/ActiveStateToggler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/ApplicationManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/ApplicationManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/ChangeColor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/ChangeColor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/DragMe.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/DragMe.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/DragPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/DragPanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/DropMe.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/DropMe.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/PanelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/PanelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/ResizePanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/ResizePanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/ScrollDetailTexture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/ScrollDetailTexture.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/ShowSliderValue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/ShowSliderValue.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/TiltWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/Scripts/TiltWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/A-Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/A-Button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/AudioManager.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/AudioManager.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Countdown.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Countdown.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/GameOver.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/LevelUp.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/LevelUp.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/.idea/.idea.Game.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/.idea/.idea.Game.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountdownTimer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountdownTimer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/AudioManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/Sound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/Sound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/.idea/.idea.Button.dir/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/.idea/.idea.Button.dir/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/.idea/.idea.Button.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/.idea/.idea.Button.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/AButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/AButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/BButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/BButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/XButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/XButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/YButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/YButton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/MainCamera/Buttonmove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/MainCamera/Buttonmove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Score.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Score.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameOver/GameOver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameOver/GameOver.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/MainMenu/Start.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/MainMenu/Start.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Sounds/3-LOOP1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Sounds/Music/3-LOOP1.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lumin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lumin/MagicLeapManifestSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lumin/MagicLeapManifestSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/Magic Leap Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/Magic Leap Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/Magic Leap Settings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/Magic Leap Settings.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/XRGeneralSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/XRGeneralSettings.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +288,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.1.13f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/XButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/MainMenu/Start.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/BButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameOver/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/XButton.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Life.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/BButton.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountdownTimer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameOver/GameOver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/AButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.1.13f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GameOverCamera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountDownPlane2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Score.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/MainMenu/Start.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/GameplayInput/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/Sound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/MainCamera/Buttonmove.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Score.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Erweiterungen/Scripts/ActiveStateToggler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/YButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountDownPlane.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/YButton.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -75,15 +322,24 @@
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Button/YButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/MainCamera/Buttonmove.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/MainMenu/PressStart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameOver/GameOver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/GameplayInput/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/Sound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountdownTimer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountDownPlane.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/YButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/MainCamera/Buttonmove.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/XButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/BButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/AButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/MainCamera/Buttonmove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameOver/GameOver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountdownPlaneLevelUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountDownPlane2.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/MainMenu/Start.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera.cs" />
       </list>
     </option>
   </component>
@@ -127,6 +383,13 @@
       <workItem from="1610724880261" duration="1244000" />
       <workItem from="1610912242930" duration="683000" />
       <workItem from="1611085695727" duration="2330000" />
+      <workItem from="1611345044239" duration="570000" />
+      <workItem from="1611402646012" duration="5743000" />
+      <workItem from="1611487541047" duration="315000" />
+      <workItem from="1611488511205" duration="358000" />
+      <workItem from="1611490234603" duration="4225000" />
+      <workItem from="1611663108261" duration="1250000" />
+      <workItem from="1611924903978" duration="6771000" />
     </task>
     <task id="LOCAL-00001" summary="Folder erstellt. Unter &quot;eigentliches Medienprojekt&quot; werden die Sachen reingemacht, die wirklich schlussendlich etwas mit unserem Medienprojekt zu tun haben werden.">
       <created>1607114011246</created>
@@ -212,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610218019285</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Gameplay (stand 22.01.21)">
+      <created>1611345090933</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611345090933</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,21 +514,22 @@
     <MESSAGE value="Stand 21.12.20:Leben und Score Anzeige integriert" />
     <MESSAGE value="Stand 28.12.20: Prototyp bis auf Audio und Kamera vorhanden (Einbindung von Intro fehlt)" />
     <MESSAGE value="Get Camera included (broken)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get Camera included (broken)" />
+    <MESSAGE value="Gameplay (stand 22.01.21)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gameplay (stand 22.01.21)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607113237699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607113237699" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610218027812">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1611345102419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610218027812" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609151208174">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611345102419" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611488581423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609151208174" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1611488581423" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1608479450843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

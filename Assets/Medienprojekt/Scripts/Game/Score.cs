@@ -5,13 +5,13 @@ using TMPro;
 public class Score : MonoBehaviour
 {
 
-    private int score;
+   public int score;
 
     private TextMeshPro text;
     // Start is called before the first frame update
     void Start()
     {
-        score = 0;
+       
         text = this.GetComponent<TextMeshPro>();
     }
 
