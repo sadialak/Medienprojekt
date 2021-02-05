@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+
+/**
+ * wird vom Ring des Haupspiels aufgerufen. Hierbei werden die SteuerkreuzSounds sowie
+ * die Farbe des Rings geregelt (also vielmehr die Nice-to-have Sachen :D)
+ */
 public class Player : MonoBehaviour
 {
 

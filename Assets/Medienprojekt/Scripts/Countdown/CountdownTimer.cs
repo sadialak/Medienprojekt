@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class CountdownTimer : MonoBehaviour
 {
     float currentTime = 0f;
-    float startingTime = 3f;
+    public float startingTime;
 
     [SerializeField] Text countdownText;
 
@@ -31,6 +31,10 @@ public class CountdownTimer : MonoBehaviour
         
     }
 
+    
+    /**
+     * gibt die aktuelle Zeit wieder. Wird benötigt für CountdownPlane
+     */
     public float GetCurrentTime()
     {
         return currentTime;

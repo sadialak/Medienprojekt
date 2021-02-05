@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
+/**
+* Wird im Plane (webcamhintergrund) von Game abgespielt. Von da aus
+* wird auch der Szenenwechsel vom ersten Teil des Hauptspiels geregelt.
+*/
 public class GetCamera : MonoBehaviour
 {
     private WebCamTexture web;
@@ -12,6 +17,10 @@ public class GetCamera : MonoBehaviour
   
     
     // Start is called before the first frame update
+	/**
+	*Hierbei wird die Webcam initialisiert und abgespielt als auch zu den
+	*Gameobjecten Score und Life zugegriffen für die Funktionen.
+	*/
     void Start()
     {
 	    score=GameObject.Find("Score");
@@ -23,15 +32,22 @@ public class GetCamera : MonoBehaviour
     }
 
     // Update is called once per frame
+	/**
+	* Es wird beim Objekt Score überbprüft ob gewisse Kriterien eingehalten werden (genauso wie bei Life).
+	* sollte eine eine gewisse Punktzahl erreicht werden oder die Leben auf 0 fallen,
+	* soll dann zur entsprechende Szene gewechselt werden.
+	*/
     void Update()
     {
-	    if (score.GetComponent<Score>().GetScore() >= 500)
+	    if (score.GetComponent<Score>().GetScore() >= 2000)
 	    {
+		   // Destroy(GameObject.Find("MusicManager"));
 		    web.Stop();
 		    SceneManager.LoadScene("LevelUp");
 	    }
 
 	    if(life.GetComponent<Life>().GetLife()<1){
+		   // Destroy(GameObject.Find("MusicManager"));
 			web.Stop();
 			SceneManager.LoadScene("GameOver");
 		}
