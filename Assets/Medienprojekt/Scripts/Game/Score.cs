@@ -10,8 +10,8 @@ using TMPro;
  */
 public class Score : MonoBehaviour
 {
-
-   public int score;
+    public int level;
+   private int score;
    private TextMeshPro text;
    
    
@@ -23,6 +23,11 @@ public class Score : MonoBehaviour
     {
        
         text = this.GetComponent<TextMeshPro>();
+        if (level == 1)
+        {
+            PlayerPrefs.SetInt("Highscore", 0);
+        }
+
     }
 
     /**
@@ -30,15 +35,18 @@ public class Score : MonoBehaviour
      */
     public void IncreaseScore(int zahl)
     {
-        score = score + zahl;
-		if(score<0){
-			score=0;
-		}
+        score = PlayerPrefs.GetInt("Highscore",0) + zahl;
+        PlayerPrefs.SetInt("Highscore", score);
     }
 
-	public int GetScore(){
-	return score;
-	}
+    public int GetLevel()
+    {
+        return level;
+    }
+	public int GetScore()
+    {
+        return PlayerPrefs.GetInt("Highscore", 0);
+    }
 
     // Update is called once per frame
     /**
@@ -47,6 +55,6 @@ public class Score : MonoBehaviour
     void Update()
     {
        
-        text.text = "Score:" + score;
+        text.text = "Score:" + PlayerPrefs.GetInt("Highscore",0);
     }
 }

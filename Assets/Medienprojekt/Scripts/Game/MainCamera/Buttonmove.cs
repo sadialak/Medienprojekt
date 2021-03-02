@@ -45,7 +45,6 @@ public class Buttonmove : MonoBehaviour
         
         while (true)
         {
-          
             zahl = Random.Range(1,5);
             if (zahl == 1)
             {

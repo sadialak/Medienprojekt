@@ -10,10 +10,8 @@ using TMPro;
  */
 public class Life : MonoBehaviour
 {
-
-
+    private GameObject score;
     private int life;
-
     private TextMeshPro text;
     // Start is called before the first frame update
     /**
@@ -21,7 +19,12 @@ public class Life : MonoBehaviour
      */
     void Start()
     {
-        life = 3;
+        score = GameObject.Find("Score");
+        if (score.GetComponent<Score>().GetLevel() == 1)
+        {
+            PlayerPrefs.SetInt("Life", 3);
+        }
+
         text = this.GetComponent<TextMeshPro>();
     }
 
@@ -30,7 +33,8 @@ public class Life : MonoBehaviour
      */
     public void DecreaseLife()
     {
-        life--;
+        life = PlayerPrefs.GetInt("Life", 0) - 1;
+        PlayerPrefs.SetInt("Life", life);
     }
 
     /**
@@ -38,7 +42,7 @@ public class Life : MonoBehaviour
      */
     public int GetLife()
     {
-        return life;
+        return PlayerPrefs.GetInt("Life", 0);
     }
 
     // Update is called once per frame
@@ -47,6 +51,6 @@ public class Life : MonoBehaviour
      */
     void Update()
     {
-        text.text = "Life:" + life;
+        text.text = "Life:" + PlayerPrefs.GetInt("Life",0);
     }
 }

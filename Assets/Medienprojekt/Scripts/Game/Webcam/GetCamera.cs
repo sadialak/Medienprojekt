@@ -13,7 +13,8 @@ public class GetCamera : MonoBehaviour
     private WebCamTexture web;
     private GameObject score;
 	private GameObject life;
-    
+
+	private float currentTime;
   
     
     // Start is called before the first frame update
@@ -23,6 +24,7 @@ public class GetCamera : MonoBehaviour
 	*/
     void Start()
     {
+	    currentTime = 128f;
 	    score=GameObject.Find("Score");
 		life=GameObject.Find("Life");
         web = new WebCamTexture();
@@ -30,6 +32,11 @@ public class GetCamera : MonoBehaviour
         web.Play();
 
     }
+	
+	public float getCurrentTime()
+	{
+		return currentTime;
+	}
 
     // Update is called once per frame
 	/**
@@ -39,7 +46,10 @@ public class GetCamera : MonoBehaviour
 	*/
     void Update()
     {
-	    if (score.GetComponent<Score>().GetScore() >= 2000)
+	    
+	    currentTime -= 1 * Time.deltaTime;
+	    
+	    if (currentTime<=0)
 	    {
 		   // Destroy(GameObject.Find("MusicManager"));
 		    web.Stop();

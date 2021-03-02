@@ -10,7 +10,8 @@ using UnityEngine;
 */
 public class AButton : MonoBehaviour
 {
-    private GameObject score;
+	private GameObject score;
+    
     private GameObject life;
     private int spritezahl;
     private SpriteRenderer sprite;
@@ -28,16 +29,16 @@ public class AButton : MonoBehaviour
 	* (In dem Fall dass es von rechts nach links geht). Zudem wird mit sprite das Aussehen des Buttons geregelt.
 	*/
     void Awake()
-    {
+	{
 		
         life=GameObject.Find("Life");
         score=GameObject.Find("Score");
         spritezahl = 0;
-        speed=3f;
+        speed=2.7f;
         sprite=this.GetComponent<SpriteRenderer>();
         controls=new PlayerControls();
         rb=this.GetComponent<Rigidbody2D>();
-        rb.velocity=new Vector2(-speed,0);
+        rb.velocity=new Vector2(0,-speed);
         controls.Gameplay.XSmash.performed+=ctx =>  XTrigger();
         controls.Gameplay.ASmash.performed+=ctx =>  ATrigger();
         controls.Gameplay.BSmash.performed+=ctx =>  BTrigger();
@@ -49,7 +50,7 @@ public class AButton : MonoBehaviour
 	*/
     void IncreaseSpeed(float inc){
         speed=inc;
-        rb.velocity=new Vector2(-speed,0);
+        rb.velocity=new Vector2(0,-speed);
     }
 
 	/**
@@ -57,7 +58,7 @@ public class AButton : MonoBehaviour
 	* kann nur einmal passieren (dafür sorgt spritezahl)
 	*/
     void XTrigger(){
-        if (spritezahl == 0 &&transform.position.x <6.0 )
+        if (spritezahl == 0 &&transform.position.y <5.0 )
         {
             sprite.sprite = array[1];
             spritezahl = 1;
@@ -75,7 +76,7 @@ public class AButton : MonoBehaviour
     void ATrigger(){
         if (spritezahl == 0)
         {
-            if (transform.position.x < 0.5 && transform.position.x > -0.5)
+            if (transform.position.y < 0.5 && transform.position.y > -0.5)
             {
 
                 FindObjectOfType<AudioManager>().Play("A");
@@ -84,11 +85,12 @@ public class AButton : MonoBehaviour
                 
 
             }
-            else if (transform.position.x <6.0 && transform.position.x >=0.5)
+            else if (transform.position.y <5.0 && transform.position.y >=0.5)
             {
+	            FindObjectOfType<AudioManager>().Play("A");
                 sprite.sprite = array[1];
                 spritezahl = 1;
-                 FindObjectOfType<AudioManager>().Play("A");
+                 
                 life.GetComponent<Life>().DecreaseLife();
             }
         }
@@ -99,11 +101,12 @@ public class AButton : MonoBehaviour
 	* kann nur einmal passieren (dafür sorgt spritezahl)
 	*/
     void BTrigger(){
-        if (spritezahl == 0 &&transform.position.x <6.0)
+        if (spritezahl == 0 &&transform.position.y <5.0)
         {
+	        FindObjectOfType<AudioManager>().Play("B");
             sprite.sprite = array[1];
             spritezahl = 1;
-             FindObjectOfType<AudioManager>().Play("B");
+             
             life.GetComponent<Life>().DecreaseLife();
         }
     }
@@ -113,11 +116,11 @@ public class AButton : MonoBehaviour
 	* kann nur einmal passieren (dafür sorgt spritezahl)
 	*/
     void YTrigger(){
-        if (spritezahl == 0 &&transform.position.x <6.0)
+        if (spritezahl == 0 &&transform.position.y <5.0)
         {
+	        FindObjectOfType<AudioManager>().Play("Y");
             sprite.sprite = array[1];
             spritezahl = 1;
-             FindObjectOfType<AudioManager>().Play("Y");
             life.GetComponent<Life>().DecreaseLife();
         }
     }
@@ -141,12 +144,12 @@ public class AButton : MonoBehaviour
 	*/
     void Update()
     {
-		if(score.GetComponent<Score>().GetScore()>=2000){
-			IncreaseSpeed(5.7f);
+		if(score.GetComponent<Score>().GetLevel()==2){
+			IncreaseSpeed(4f);
 		}
         if (spritezahl == 0)
         {
-            if (transform.position.x <= -0.5)
+            if (transform.position.y <= -0.5)
             {
                 sprite.sprite = array[1];
                 spritezahl = 1;
@@ -155,7 +158,7 @@ public class AButton : MonoBehaviour
             }
         }
 
-        if (transform.position.x < -6)
+        if (transform.position.y < -5)
         {
             Destroy(this.gameObject);
         }

@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 282011828945228423}
   - component: {fileID: 4305313105988143071}
   - component: {fileID: 4305313105988143056}
-  - component: {fileID: 6349823214020608600}
   - component: {fileID: 5212063915372378896}
+  - component: {fileID: 3597380568185480823}
   m_Layer: 0
   m_Name: X-Button
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5185141232061972474}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6, y: 5, z: 0}
+  m_LocalPosition: {x: -9, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -134,22 +134,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0842, y: 1.0842}
   m_EdgeRadius: 0
---- !u!114 &6349823214020608600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5185141232061972474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b181d852a13f0bf4a85ea2cbcd70620e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  array:
-  - {fileID: 3286163911610860551, guid: 893fa10fde835324285cf3a3b6a675a5, type: 3}
-  - {fileID: 3286163911610860551, guid: ee84b79d0ebae41499d7f39edcd9fec6, type: 3}
-  sound: {fileID: 0}
 --- !u!82 &5212063915372378896
 AudioSource:
   m_ObjectHideFlags: 0
@@ -246,3 +230,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3597380568185480823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5185141232061972474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b181d852a13f0bf4a85ea2cbcd70620e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  array:
+  - {fileID: 3286163911610860551, guid: 893fa10fde835324285cf3a3b6a675a5, type: 3}
+  - {fileID: 3286163911610860551, guid: ee84b79d0ebae41499d7f39edcd9fec6, type: 3}
+  speed: 0
