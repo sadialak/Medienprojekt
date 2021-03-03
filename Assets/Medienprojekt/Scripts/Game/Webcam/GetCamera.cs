@@ -53,7 +53,7 @@ public class GetCamera : MonoBehaviour
 	    {
 		   // Destroy(GameObject.Find("MusicManager"));
 		    web.Stop();
-		    SceneManager.LoadScene("LevelUp");
+		    SceneManager.LoadScene("Game2");
 	    }
 
 	    if(life.GetComponent<Life>().GetLife()<1){

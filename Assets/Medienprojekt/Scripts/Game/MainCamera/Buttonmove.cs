@@ -42,7 +42,7 @@ public class Buttonmove : MonoBehaviour
      */
     IEnumerator SpawnButton()
     {
-        
+        yield return new WaitForSeconds(11f);
         while (true)
         {
             zahl = Random.Range(1,5);

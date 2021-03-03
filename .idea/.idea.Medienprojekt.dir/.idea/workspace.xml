@@ -21,30 +21,28 @@
   <component name="ChangeListManager">
     <list default="true" id="1002e1e2-28c9-4288-8a34-d11ac4c4cbe4" name="Default Changelist" comment="Stand 21.12.20:Leben und Score Anzeige integriert">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Erweiterungen/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Erweiterungen/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/A-Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/A-Button.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/B-Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/B-Button.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/Game.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/Game.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/X-Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/X-Button.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/Y-Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Prefabs/Y-Button.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Countdown.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Countdown.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Game2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Game2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/AButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/AButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/BButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/BButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/XButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/XButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/YButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/YButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Life.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Life.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/GameOver.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/LevelUp.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/LevelUp.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountdownTimer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountdownTimer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/MusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/MusicManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/MainCamera/Buttonmove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/MainCamera/Buttonmove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Score.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Score.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Sounds/Buttonbefehle/A_Befehl.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Sounds/Buttonbefehle/A_Befehl.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Sounds/Buttonbefehle/B_Befehl.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Sounds/Buttonbefehle/B_Befehl.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Sounds/Buttonbefehle/X_Befehl.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Sounds/Buttonbefehle/X_Befehl.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Sounds/Buttonbefehle/Y_Befehl.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Sounds/Buttonbefehle/Y_Befehl.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Sounds/Music/Scriptmusic/1-Intro.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Sounds/Music/Scriptmusic/1-Intro.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameOver/GameOver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameOver/GameOver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/MainMenu/Start.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/MainMenu/Start.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/Magic Leap Settings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/Magic Leap Settings.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,26 +55,25 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/XButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Life.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Life.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/BButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountdownTimer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountdownTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameOver/GameOver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/AButton.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GameOverCamera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/MusicManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountDownPlane2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Score.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Score.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/MainMenu/Start.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/GameplayInput/PlayerControls.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/NativeAudio/Runtime/NativeAudioAndroid.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/GameplayInput/Player.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/Sound.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/MusicManager2.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/MainCamera/Buttonmove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/MainCamera/Buttonmove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountDownPlane.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountDownPlane.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/YButton.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -98,24 +95,24 @@
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountdownPlaneLevelUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountDownPlane.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountDownPlane2.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountdownTimer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameOver/GameOver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/MainMenu/Start.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GameOverCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/Sound.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/MusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/MusicManager2.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera2.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/GameplayInput/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/MainCamera/Buttonmove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/YButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/XButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/BButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Button/AButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Life.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Countdown/CountdownTimer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/MainCamera/Buttonmove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/AudioManager/MusicManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/GameOver/GameOver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/MainMenu/Start.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Game/Webcam/GetCamera.cs" />
       </list>
     </option>
   </component>
@@ -180,7 +177,8 @@
       <workItem from="1614431867997" duration="5765000" />
       <workItem from="1614523834662" duration="6258000" />
       <workItem from="1614614952561" duration="8576000" />
-      <workItem from="1614690840518" duration="786000" />
+      <workItem from="1614690840518" duration="3658000" />
+      <workItem from="1614771435434" duration="6202000" />
     </task>
     <task id="LOCAL-00001" summary="Folder erstellt. Unter &quot;eigentliches Medienprojekt&quot; werden die Sachen reingemacht, die wirklich schlussendlich etwas mit unserem Medienprojekt zu tun haben werden.">
       <created>1607114011246</created>
@@ -301,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613058686835</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Usergameplay (Stand 2.3.2021)">
+      <created>1614692306543</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1614692306543</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +342,8 @@
     <MESSAGE value="Einbeziehung der Build ups abgeschlossen" />
     <MESSAGE value="Dokumentieren als auch Managers und aufteilen in zwei Leveln gelöst" />
     <MESSAGE value="Änderung bei AudioManager" />
-    <option name="LAST_COMMIT_MESSAGE" value="Änderung bei AudioManager" />
+    <MESSAGE value="Usergameplay (Stand 2.3.2021)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Usergameplay (Stand 2.3.2021)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612536201460">
@@ -352,14 +358,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612533359165" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613058695436">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614692315316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613058695436" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614458727692">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614692315316" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614697215394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614458727692" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614697215394" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1612540899926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

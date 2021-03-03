@@ -12,7 +12,7 @@ public class GameOver : MonoBehaviour
 {
 	private WebCamTexture web;
     private PlayerControls controls;
-    
+    private float currentTime;
     
     
     /**
@@ -23,7 +23,7 @@ public class GameOver : MonoBehaviour
      */
     void Awake()
     {
-		
+        currentTime = 20f;
         web = new WebCamTexture();
         GetComponent<Renderer>().material.mainTexture = web;
         web.Play();
@@ -45,7 +45,14 @@ public class GameOver : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        currentTime -= 1 * Time.deltaTime;
         
+
+        if (currentTime <= 0)
+        {
+            web.Stop();
+            SceneManager.LoadScene("MainMenu");
+        }
     }
     
     /**
