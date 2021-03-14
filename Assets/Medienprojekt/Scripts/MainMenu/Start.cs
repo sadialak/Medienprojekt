@@ -27,6 +27,7 @@ public class Start : MonoBehaviour
         GetComponent<Renderer>().material.mainTexture = web;
         web.Play();
         controls = new PlayerControls();
+        controls.Gameplay.XSmash.performed += ctx => Performer();
         controls.Gameplay.Start.performed += ctx => NextScene();
         controls.Gameplay.Select.performed += ctx => Application.Quit();
     }
@@ -38,6 +39,12 @@ public class Start : MonoBehaviour
     void NextScene()
     {
 		web.Stop();
+        SceneManager.LoadScene("Game");
+    }
+    
+    void Performer()
+    {
+        web.Stop();
         SceneManager.LoadScene("Game");
     }
 

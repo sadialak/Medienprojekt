@@ -65,7 +65,7 @@ public class MusicManager : MonoBehaviour
 
             s.source.PlayScheduled(AudioSettings.dspTime);
             double clipLength = s.source.clip.samples / s.source.clip.frequency;
-            s2.source.PlayScheduled(AudioSettings.dspTime + clipLength+0.27f);
+            s2.source.PlayScheduled(AudioSettings.dspTime + clipLength+0.7f);
     }
 
 
