@@ -24,7 +24,8 @@ public class GameOver : MonoBehaviour
     void Awake()
     {
         currentTime = 20f;
-        web = new WebCamTexture();
+        WebCamDevice[] devices = WebCamTexture.devices;
+        web = new WebCamTexture(devices[1].name);
         GetComponent<Renderer>().material.mainTexture = web;
         web.Play();
         controls = new PlayerControls();

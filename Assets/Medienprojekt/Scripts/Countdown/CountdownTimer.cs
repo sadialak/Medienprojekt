@@ -9,7 +9,7 @@ public class CountdownTimer : MonoBehaviour
     float currentTime = 0f;
     public float startingTime;
 
-    [SerializeField] Text countdownText;
+ 
 
     void Start()
     {
@@ -22,7 +22,7 @@ public class CountdownTimer : MonoBehaviour
     void Update()
     {
         currentTime -= 1 * Time.deltaTime;
-        countdownText.text = currentTime.ToString ("0");
+
 
         if (currentTime <= 0)
         {

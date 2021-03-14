@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CountdownSprite : MonoBehaviour
 {
-    
+    public GameObject go;
     private SpriteRenderer sprite;
     public float startingTime;
     float currentTime = 0f;
@@ -20,20 +20,22 @@ public class CountdownSprite : MonoBehaviour
     void Update()
     {
         currentTime -= 1 * Time.deltaTime;
-        if (currentTime <= 3)
+        if (currentTime <= 9)
         {
             sprite.sprite = array[0];
         }
-        if (currentTime <= 2)
+        if (currentTime <= 8)
         {
             sprite.sprite = array[1];
         }
-        if (currentTime <= 1)
+        if (currentTime <= 7)
         {
+            this.GetComponent<Transform>().localScale = new Vector3(1.5f, 1.5f, 1);
             sprite.sprite = array[2];
         }
         if (currentTime <= 0.1)
         {
+            
             Destroy(this.gameObject);
         }
     }

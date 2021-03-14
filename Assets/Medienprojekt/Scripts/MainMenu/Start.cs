@@ -10,8 +10,10 @@ using UnityEngine.SceneManagement;
  */
 public class Start : MonoBehaviour
 {
-    private WebCamTexture web;
+    private static WebCamTexture web;
     private PlayerControls controls;
+
+    
     // Start is called before the first frame update
     
     /**
@@ -23,11 +25,12 @@ public class Start : MonoBehaviour
      */
     void Awake()
     {
-		web = new WebCamTexture();
+        WebCamDevice[] devices = WebCamTexture.devices;
+		web = new WebCamTexture(devices[1].name);
         GetComponent<Renderer>().material.mainTexture = web;
         web.Play();
         controls = new PlayerControls();
-        controls.Gameplay.XSmash.performed += ctx => Performer();
+        controls.Gameplay.ASmash.performed += ctx => Performer();
         controls.Gameplay.Start.performed += ctx => NextScene();
         controls.Gameplay.Select.performed += ctx => Application.Quit();
     }
@@ -45,7 +48,7 @@ public class Start : MonoBehaviour
     void Performer()
     {
         web.Stop();
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("PerformerKeyboard");
     }
 
     // Update is called once per frame

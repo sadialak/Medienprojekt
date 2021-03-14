@@ -22,7 +22,7 @@ public class Life : MonoBehaviour
         score = GameObject.Find("Score");
         if (score.GetComponent<Score>().GetLevel() == 1)
         {
-            PlayerPrefs.SetInt("Life", 3);
+            PlayerPrefs.SetInt("Life", 5);
         }
 
         text = this.GetComponent<TextMeshPro>();

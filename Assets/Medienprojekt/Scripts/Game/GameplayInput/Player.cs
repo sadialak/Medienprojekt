@@ -18,10 +18,10 @@ public class Player : MonoBehaviour
 
 		controls= new PlayerControls();
         sprite = this.GetComponent<SpriteRenderer>();
-		controls.Gameplay.XSmash.performed+=ctx =>  StartCoroutine(SetXColor());
-		controls.Gameplay.ASmash.performed+=ctx => StartCoroutine(SetAColor());
-		controls.Gameplay.BSmash.performed+=ctx =>  StartCoroutine(SetBColor());
-		controls.Gameplay.YSmash.performed+=ctx =>  StartCoroutine(SetYColor());
+		//controls.Gameplay.XSmash.performed+=ctx =>  StartCoroutine(SetXColor());
+		//controls.Gameplay.ASmash.performed+=ctx => StartCoroutine(SetAColor());
+		//controls.Gameplay.BSmash.performed+=ctx =>  StartCoroutine(SetBColor());
+		//controls.Gameplay.YSmash.performed+=ctx =>  StartCoroutine(SetYColor());
 		controls.Gameplay.Oben.performed += ctx => Nice();
 		controls.Gameplay.Unten.performed += ctx => GoodJob();
 		controls.Gameplay.Links.performed += ctx => Fail();

@@ -14,7 +14,7 @@ public class GetCameraPerformer : MonoBehaviour
         WebCamDevice[] devices = WebCamTexture.devices;
         if (devices.Length > 1)
         {
-            web = new WebCamTexture(devices[0].name);
+            web = new WebCamTexture(devices[1].name);
             GetComponent<Renderer>().material.mainTexture = web;
             web.Play();
         }

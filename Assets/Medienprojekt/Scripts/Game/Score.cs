@@ -25,7 +25,7 @@ public class Score : MonoBehaviour
         text = this.GetComponent<TextMeshPro>();
         if (level == 1)
         {
-            PlayerPrefs.SetInt("Highscore", 0);
+            PlayerPrefs.SetInt("Score", 0);
         }
 
     }
@@ -35,8 +35,8 @@ public class Score : MonoBehaviour
      */
     public void IncreaseScore(int zahl)
     {
-        score = PlayerPrefs.GetInt("Highscore",0) + zahl;
-        PlayerPrefs.SetInt("Highscore", score);
+        score = PlayerPrefs.GetInt("Score",0) + zahl;
+        PlayerPrefs.SetInt("Score", score);
     }
 
     public int GetLevel()
@@ -45,7 +45,7 @@ public class Score : MonoBehaviour
     }
 	public int GetScore()
     {
-        return PlayerPrefs.GetInt("Highscore", 0);
+        return PlayerPrefs.GetInt("Score", 0);
     }
 
     // Update is called once per frame
@@ -54,7 +54,6 @@ public class Score : MonoBehaviour
      */
     void Update()
     {
-       
-        text.text = "Score:" + PlayerPrefs.GetInt("Highscore",0);
+        text.text = "Score:" + PlayerPrefs.GetInt("Score",0);
     }
 }
