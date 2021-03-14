@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24cb0fd9-aa61-4d72-8594-0e992cb84330" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Erweiterungen/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Erweiterungen/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SVG/SVG.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SVG/SVG.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SVG/__MACOSX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SVG/__MACOSX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game/AudioManager/MusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Game/AudioManager/MusicManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game/GameplayInput/PlayerControls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Game/GameplayInput/PlayerControls.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game/GameplayInput/PlayerControls.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/../../Game/GameplayInput/PlayerControls.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game/Score.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Game/Score.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game/Webcam/GetCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Game/Webcam/GetCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Game/Webcam/GetCamera2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Game/Webcam/GetCamera2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GameOver/GameOver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../GameOver/GameOver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MainMenu/Start.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../MainMenu/Start.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../ProjectSettings/QualitySettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/HighscoreCamera.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1pZs1iKsqRero9O9eJeQZ0XaxXl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24cb0fd9-aa61-4d72-8594-0e992cb84330" name="Default Changelist" comment="" />
+      <created>1615401800227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615401800227</updated>
+      <workItem from="1615401882905" duration="76000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
