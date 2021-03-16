@@ -28,7 +28,7 @@ public class GetCamera : MonoBehaviour
 	    score=GameObject.Find("Score");
 		life=GameObject.Find("Life");
 		WebCamDevice[] devices = WebCamTexture.devices;
-		web = new WebCamTexture(devices[0].name);
+		web = new WebCamTexture(devices[1].name);
         GetComponent<Renderer>().material.mainTexture = web;
         web.Play();
 
