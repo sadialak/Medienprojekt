@@ -12,18 +12,11 @@ public class GetCameraPerformer : MonoBehaviour
     void Start()
     {
         WebCamDevice[] devices = WebCamTexture.devices;
-        if (devices.Length > 1)
-        {
             web = new WebCamTexture(devices[0].name);
             GetComponent<Renderer>().material.mainTexture = web;
             web.Play();
-        }
-        else
-        {
-            web = new WebCamTexture(devices[0].name);
-            GetComponent<Renderer>().material.mainTexture = web;
-            web.Play();
-        }
+        
+
     }
 
     // Update is called once per frame

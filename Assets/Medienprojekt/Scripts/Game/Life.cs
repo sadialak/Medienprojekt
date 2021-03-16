@@ -12,20 +12,22 @@ public class Life : MonoBehaviour
 {
     private GameObject score;
     private int life;
-    private TextMeshPro text;
+    public Sprite[] array;
+    private SpriteRenderer sprite;
     // Start is called before the first frame update
     /**
      * Initilaisierung der Leben auf 3 als auch dass das an den TextmeshPro übertragen wird
      */
     void Start()
     {
+        sprite=this.GetComponent<SpriteRenderer>();
         score = GameObject.Find("Score");
         if (score.GetComponent<Score>().GetLevel() == 1)
         {
             PlayerPrefs.SetInt("Life", 5);
         }
 
-        text = this.GetComponent<TextMeshPro>();
+        
     }
 
     /**
@@ -35,6 +37,7 @@ public class Life : MonoBehaviour
     {
         life = PlayerPrefs.GetInt("Life", 0) - 1;
         PlayerPrefs.SetInt("Life", life);
+        
     }
 
     /**
@@ -51,6 +54,25 @@ public class Life : MonoBehaviour
      */
     void Update()
     {
-        text.text = "Life:" + PlayerPrefs.GetInt("Life",0);
+        if (PlayerPrefs.GetInt("Life")<5)
+        {
+            sprite.sprite = array[0];
+        }
+        if (PlayerPrefs.GetInt("Life")<4)
+        {
+            sprite.sprite = array[1];
+        }
+        if (PlayerPrefs.GetInt("Life")<3)
+        {
+            sprite.sprite = array[2];
+        }
+        if (PlayerPrefs.GetInt("Life")<2)
+        {
+            sprite.sprite = array[3];
+        }
+        if (PlayerPrefs.GetInt("Life")<1)
+        {
+            sprite.sprite = array[4];
+        }
     }
 }

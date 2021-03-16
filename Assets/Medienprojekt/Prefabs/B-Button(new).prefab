@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   array:
   - {fileID: 3286163911610860551, guid: 208ba4354b3b93a41a99bbf2b7a78404, type: 3}
-  - {fileID: 3286163911610860551, guid: ae00d855685ffdc4ea1dd7bf877e64b2, type: 3}
+  - {fileID: 3286163911610860551, guid: ee9a4cf6dca513040871955c36acbe87, type: 3}
   speed: 0
 --- !u!50 &3473024935530887602
 Rigidbody2D:

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 
@@ -12,7 +13,7 @@ public class Score : MonoBehaviour
 {
     public int level;
    private int score;
-   private TextMeshPro text;
+   private Text text;
    
    
     // Start is called before the first frame update
@@ -22,7 +23,7 @@ public class Score : MonoBehaviour
     void Start()
     {
        
-        text = this.GetComponent<TextMeshPro>();
+        text = this.GetComponent<Text>();
         if (level == 1)
         {
             PlayerPrefs.SetInt("Score", 0);
@@ -54,6 +55,6 @@ public class Score : MonoBehaviour
      */
     void Update()
     {
-        text.text = "Score:" + PlayerPrefs.GetInt("Score",0);
+        text.text = ""+ PlayerPrefs.GetInt("Score",0);
     }
 }

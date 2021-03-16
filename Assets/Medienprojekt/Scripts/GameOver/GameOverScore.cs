@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 public class GameOverScore : MonoBehaviour
 {
-    private TextMeshPro text;
+    private Text text;
     // Start is called before the first frame update
     void Start()
     {
-        text = this.GetComponent<TextMeshPro>();
+        text = this.GetComponent<Text>();
     }
 
     // Update is called once per frame

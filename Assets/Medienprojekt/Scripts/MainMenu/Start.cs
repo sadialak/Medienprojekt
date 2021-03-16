@@ -30,9 +30,9 @@ public class Start : MonoBehaviour
         GetComponent<Renderer>().material.mainTexture = web;
         web.Play();
         controls = new PlayerControls();
-        controls.Gameplay.ASmash.performed += ctx => Performer();
+        controls.Gameplay.Select.performed += ctx => Performer();
         controls.Gameplay.Start.performed += ctx => NextScene();
-        controls.Gameplay.Select.performed += ctx => Application.Quit();
+        //controls.Gameplay.Select.performed += ctx => Application.Quit();
     }
 
     /**
