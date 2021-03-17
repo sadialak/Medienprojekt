@@ -1153,6 +1153,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Keyboard
       objectReference: {fileID: 0}
+    - target: {fileID: 1039667348636821175, guid: 6cc345d4d0ab0954290e3f1751d062e5,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1039667348636821177, guid: 6cc345d4d0ab0954290e3f1751d062e5,
         type: 3}
       propertyPath: m_Pivot.x
