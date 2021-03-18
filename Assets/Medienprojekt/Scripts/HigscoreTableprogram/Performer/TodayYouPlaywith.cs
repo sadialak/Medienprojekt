@@ -18,7 +18,7 @@ public class TodayYouPlaywith : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        text.text ="Today you'll play with: "+PlayerPrefs.GetString("Performer");
+        text.text ="Today you will dance through: "+PlayerPrefs.GetString("Performer");
         
     }
 }
