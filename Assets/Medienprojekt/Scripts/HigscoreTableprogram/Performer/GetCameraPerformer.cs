@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class KeyboardCamera : MonoBehaviour
+public class GetCameraPerformer : MonoBehaviour
 {
     private WebCamTexture web;
     
@@ -11,19 +11,12 @@ public class KeyboardCamera : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        WebCamDevice[] devices = WebCamTexture.devices;
-        if (devices.Length > 1)
-        {
+      /*  WebCamDevice[] devices = WebCamTexture.devices;
             web = new WebCamTexture(devices[0].name);
             GetComponent<Renderer>().material.mainTexture = web;
-            web.Play();
-        }
-        else
-        {
-            web = new WebCamTexture(devices[0].name);
-            GetComponent<Renderer>().material.mainTexture = web;
-            web.Play();
-        }
+            web.Play();*/
+        
+
     }
 
     // Update is called once per frame
@@ -34,7 +27,9 @@ public class KeyboardCamera : MonoBehaviour
 
     public void Stop()
     {
-        web.Stop();
-        SceneManager.LoadScene("Highscore"); 
+        //web.Stop();
+        SceneManager.LoadScene("Mainmenu"); 
     }
+
+
 }

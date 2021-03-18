@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class HighscoreCamera : MonoBehaviour
 {
-    private WebCamTexture web;
+  /*  private WebCamTexture web;
     private PlayerControls controls;
-    private float currentTime;
+    private float currentTime;*/
     
     
     /**
@@ -15,13 +15,13 @@ public class HighscoreCamera : MonoBehaviour
      * Input: sollte "Start" gedrückt werden, soll die Kamera gestoppt werden und zum Hauptmenü
      * zurückkehren (Szenenwechsel zum Hauptmenü)
      */
-    void Awake()
+    void Start()
     {
-        currentTime = 20f;
-        WebCamDevice[] devices = WebCamTexture.devices;
+      /*  currentTime = 20f;
+        WebCamDevice[] devices = WebCamTexture.devices;*/
         
   
-        if (devices.Length > 1)
+       /* if (devices.Length > 1)
         {
             web = new WebCamTexture(devices[0].name);
             GetComponent<Renderer>().material.mainTexture = web;
@@ -32,10 +32,10 @@ public class HighscoreCamera : MonoBehaviour
             web = new WebCamTexture(devices[0].name);
             GetComponent<Renderer>().material.mainTexture = web;
             web.Play();
-        }
+        }*/
         
-        controls = new PlayerControls();
-        controls.Gameplay.Start.performed += ctx => NextScene();
+        /*controls = new PlayerControls();
+        controls.Gameplay.Start.performed += ctx => NextScene();*/
     }
 
     
@@ -43,23 +43,23 @@ public class HighscoreCamera : MonoBehaviour
      * wird beim Start Input aufgerufen. Dabei soll die webcam gestoppt (da sonst abbruch)
      * und dann zum Hauptmenü als Szene zurückkehren zurückkehren
      */
-    void NextScene()
+    public void NextScene()
     {
-        web.Stop();
-        SceneManager.LoadScene("MainMenu");
+        //web.Stop();
+        SceneManager.LoadScene("Mainmenu");
+    }
+    
+    public void Reset()
+    {
+        //web.Stop();
+        PlayerPrefs.DeleteAll();
     }
 
     // Update is called once per frame
     void Update()
     {
-        currentTime -= 1 * Time.deltaTime;
+        //currentTime -= 1 * Time.deltaTime;
         
-
-        if (currentTime <= 0)
-        {
-            web.Stop();
-            SceneManager.LoadScene("MainMenu");
-        }
     }
     
     /**
@@ -67,11 +67,11 @@ public class HighscoreCamera : MonoBehaviour
      *  erst richtig erkannt werden.
      */
     
-    void OnEnable(){
+    /*void OnEnable(){
         controls.Gameplay.Enable();
     }
 
     void OnDisable(){
         controls.Gameplay.Disable();
-    }
+    }*/
 }
