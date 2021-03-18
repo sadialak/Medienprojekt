@@ -19,7 +19,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1002e1e2-28c9-4288-8a34-d11ac4c4cbe4" name="Default Changelist" comment="Stand 21.12.20:Leben und Score Anzeige integriert" />
+    <list default="true" id="1002e1e2-28c9-4288-8a34-d11ac4c4cbe4" name="Default Changelist" comment="Stand 21.12.20:Leben und Score Anzeige integriert">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Countdown.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Countdown.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Game.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Game.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Game2.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Game2.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/GameOver.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/GameOver.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Highscoretable/Highscore.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Highscoretable/Highscore.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Highscoretable/HighscoreKeyboard.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Highscoretable/HighscoreKeyboard.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/LevelUp.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/LevelUp.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/MainMenu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/MainMenu.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/PerformerKeyboard.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/PerformerKeyboard.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/HighScore/Highscoretable/HighscoreCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/HighScore/Highscoretable/HighscoreCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/HighScore/Keyboard/ButtonsHighscore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/HighScore/Keyboard/ButtonsHighscore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/Performer/Buttons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/Performer/Buttons.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/Performer/GetCameraPerformer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/Performer/GetCameraPerformer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,14 +55,15 @@
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/HighScore/Keyboard/ButtonsHighscore.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/HighScore/Keyboard/KeyboardCamera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/Performer/GetCameraPerformer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/Performer/Buttons.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/MainMenu/TableMainMenuPlane.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Plugins/UI/InputSystemUIInputModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/HighScore/Highscoretable/HighscoreCamera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/HighScore/Highscoretable/ScoreUser.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/HighScore/Highscoretable/FinalScore.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Maingame/MainMenu/Start.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/HighScore/Highscoretable/ScorePerformer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.1/InputSystem/Plugins/UI/InputSystemUIInputModule.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -86,12 +109,14 @@
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/Performer/TodayYouPlaywith.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HighScore/Highscoretable/HighscoreCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/MainMenu/TableMainMenuPlane.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/Performer/GetCameraPerformer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/HighScore/Highscoretable/HighscoreCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/ScoreKeyboard/ScoreKeyboard.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/HighScore/Highscoretable/FinalScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/HighScore/Highscoretable/ScorePerformer.cs" />
         <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/HighScore/Highscoretable/ScoreUser.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/HighScore/Highscoretable/HighscoreCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/Performer/GetCameraPerformer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/HighScore/Keyboard/ButtonsHighscore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/Performer/Buttons.cs" />
       </list>
     </option>
   </component>
@@ -163,7 +188,7 @@
       <workItem from="1615805623596" duration="5020000" />
       <workItem from="1615886712635" duration="7355000" />
       <workItem from="1615975299149" duration="4860000" />
-      <workItem from="1616058957695" duration="10008000" />
+      <workItem from="1616058957695" duration="13822000" />
     </task>
     <task id="LOCAL-00001" summary="Folder erstellt. Unter &quot;eigentliches Medienprojekt&quot; werden die Sachen reingemacht, die wirklich schlussendlich etwas mit unserem Medienprojekt zu tun haben werden.">
       <created>1607114011246</created>
@@ -361,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616076149398</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Maingameänderung2 (18.03.21)">
+      <created>1616076476848</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1616076476848</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +413,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Medienprojekt ordner oben" />
     <MESSAGE value="Strukturierungen bzw. Differenzierung zwischen Medienprojekt und Erweiterungen vom Medienprojekt" />
     <MESSAGE value="Input aufgesetzt und Hauptmenü verändert sowie Start vom eigentlichen Game (Fehler bei Hauptmenü: Background Button wird nicht richtig angezeigt)" />
     <MESSAGE value="Strukturieren von Game" />
@@ -406,7 +437,8 @@
     <MESSAGE value="Textänderung 17.03.21 (stehen nur konstant an den Bildschirmen" />
     <MESSAGE value="Highscoreänderung 18.03,21" />
     <MESSAGE value="Maingameänderung (18.03.21)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maingameänderung (18.03.21)" />
+    <MESSAGE value="Maingameänderung2 (18.03.21)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maingameänderung2 (18.03.21)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612536201460">
@@ -421,10 +453,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612533359165" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616076154835">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616076480503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616076154835" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616076480503" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615727895924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

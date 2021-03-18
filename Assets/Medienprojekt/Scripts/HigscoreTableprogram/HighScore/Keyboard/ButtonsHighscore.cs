@@ -1,17 +1,18 @@
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 public class ButtonsHighscore : MonoBehaviour
 {
     private string word;
     private GameObject plane;
     private bool uppercase;
-    private TextMeshPro text;
+    private Text text;
     
     // Start is called before the first frame update
     void Start()
     {
         uppercase = false;
-        text = this.GetComponent<TextMeshPro>();
+        text = this.GetComponent<Text>();
         plane=GameObject.Find("Plane");
         word ="";
         

@@ -6,19 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Medienprojekt/Scenes/MainMenu.unity
+    path: Assets/Medienprojekt/Scenes/Maingame/MainMenu.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Medienprojekt/Scenes/PerformerKeyboard.unity
     guid: b8c977a3eadb7b146a5a24e6d8478239
   - enabled: 1
-    path: Assets/Medienprojekt/Scenes/Game.unity
+    path: Assets/Medienprojekt/Scenes/Maingame/Game.unity
     guid: fbd364f1b65d171458a8190c490665f3
   - enabled: 1
-    path: Assets/Medienprojekt/Scenes/Game2.unity
+    path: Assets/Medienprojekt/Scenes/Maingame/Game2.unity
     guid: dd6e999375801c24286345ce2fe0c7a2
   - enabled: 1
-    path: Assets/Medienprojekt/Scenes/GameOver.unity
+    path: Assets/Medienprojekt/Scenes/Maingame/GameOver.unity
     guid: c6ff1657b63034147a3f527d66910d15
   m_configObjects:
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 1d714c8b8e92eb047ad3a62050ea4081,
