@@ -22,10 +22,10 @@ public class Player : MonoBehaviour
 		//controls.Gameplay.ASmash.performed+=ctx => StartCoroutine(SetAColor());
 		//controls.Gameplay.BSmash.performed+=ctx =>  StartCoroutine(SetBColor());
 		//controls.Gameplay.YSmash.performed+=ctx =>  StartCoroutine(SetYColor());
-		controls.Gameplay.Oben.performed += ctx => Nice();
+		/*controls.Gameplay.Oben.performed += ctx => Nice();
 		controls.Gameplay.Unten.performed += ctx => GoodJob();
 		controls.Gameplay.Links.performed += ctx => Fail();
-		controls.Gameplay.Rechts.performed += ctx => Cool();
+		controls.Gameplay.Rechts.performed += ctx => Cool();*/
     }
 
 	IEnumerator SetAColor()

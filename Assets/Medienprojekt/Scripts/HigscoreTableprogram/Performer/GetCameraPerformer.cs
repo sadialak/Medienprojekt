@@ -28,7 +28,7 @@ public class GetCameraPerformer : MonoBehaviour
     public void Stop()
     {
         //web.Stop();
-        SceneManager.LoadScene("Highscore"); 
+        SceneManager.LoadScene("MainMenu"); 
     }
 
 
