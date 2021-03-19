@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1002e1e2-28c9-4288-8a34-d11ac4c4cbe4" name="Default Changelist" comment="Stand 21.12.20:Leben und Score Anzeige integriert">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Medienprojekt.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/Performer/TodayYouPlaywith.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scripts/HigscoreTableprogram/Performer/TodayYouPlaywith.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Highscoretable/Highscore.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Highscoretable/Highscore.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Maingame/Game2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Medienprojekt/Scenes/Maingame/Game2.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +172,7 @@
       <workItem from="1615805623596" duration="5020000" />
       <workItem from="1615886712635" duration="7355000" />
       <workItem from="1615975299149" duration="4860000" />
-      <workItem from="1616058957695" duration="14760000" />
+      <workItem from="1616058957695" duration="16130000" />
     </task>
     <task id="LOCAL-00001" summary="Folder erstellt. Unter &quot;eigentliches Medienprojekt&quot; werden die Sachen reingemacht, die wirklich schlussendlich etwas mit unserem Medienprojekt zu tun haben werden.">
       <created>1607114011246</created>
@@ -383,7 +384,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616082529323</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Maingameänderung4 (18.03.21)">
+      <created>1616084753024</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1616084753025</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Maingameänderung5 (18.03.21)">
+      <created>1616084893124</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1616084893124</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,8 +418,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Input aufgesetzt und Hauptmenü verändert sowie Start vom eigentlichen Game (Fehler bei Hauptmenü: Background Button wird nicht richtig angezeigt)" />
-    <MESSAGE value="Strukturieren von Game" />
     <MESSAGE value="Stand 18.12.20" />
     <MESSAGE value="Stand 20.12.20: Erkennt richtig button" />
     <MESSAGE value="Stand 21.12.20: Leben und Score Anzeige integriert" />
@@ -428,7 +441,9 @@
     <MESSAGE value="Maingameänderung (18.03.21)" />
     <MESSAGE value="Maingameänderung2 (18.03.21)" />
     <MESSAGE value="Maingameänderung3(18.03.21)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maingameänderung3(18.03.21)" />
+    <MESSAGE value="Maingameänderung4 (18.03.21)" />
+    <MESSAGE value="Maingameänderung5 (18.03.21)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maingameänderung5 (18.03.21)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612536201460">
@@ -443,10 +458,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612533359165" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616082563781">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616084895855">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616082563781" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616084895855" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615727895924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

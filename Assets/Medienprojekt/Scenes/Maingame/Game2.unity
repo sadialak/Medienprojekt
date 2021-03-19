@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 967083015}
   - component: {fileID: 967083014}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Score(final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
